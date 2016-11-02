@@ -1,0 +1,39 @@
+
+
+/*********************************  INTRO  *********************************/
+$intro-btn-background: $showcolor1;
+$intro-btn-color: $white;
+
+/******************************  CHARACTERS  *******************************/
+
+/******************************  PRODUCTION  *******************************/
+
+/*********************************  CAST  **********************************/
+
+/********************************  VIDEOS  *********************************/
+$video-thumb-background: $showcolor1;
+$video-thumb-background-hover: $showcolor2;
+
+$video-thumb-image-background: $black;
+
+$video-thumb-name-color: $white;
+$video-thumb-cta-color: $light-grey;
+$video-thumb-cta-color-hover: $white;
+
+$video-close-btn-color: $light-grey;
+$video-close-btn-color-hover: $white;
+
+/********************************  PRESS  **********************************/
+$press-thumb-background: $showcolor1;
+$press-thumb-background-hover: $showcolor2;
+
+$press-copy-color: $black;
+$press-copy-color-hover: $white;
+$press-thumb-title: $white;
+$press-third-color: $light-grey;
+
+$press-camera-background: url(#{$imgPath}icon-photo.svg);
+
+$press-link-color: $med-light-grey;
+$press-link-hover-color: $light-grey;
+$press-link-sub-color: $med-grey;

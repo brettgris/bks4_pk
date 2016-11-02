@@ -1,0 +1,54 @@
+/********************************** INTRO **********************************/
+$introbtn-width: 200px;
+$introbtn-height: 50px;
+$introbtn-left: 50%;
+$introbtn-bottom: 10%;
+
+$introbtn-margin-left: $introbtn-width/-2;
+
+/******************************** SYNOPSIS *********************************/
+$synopsis-margin-bottom: 10%;
+$synopsis-tag-margin-bottom: 10px;
+
+/********************************** STORY **********************************/
+$story-image-width: 1300px;
+$story-image-height: 600px;
+$story-arrow-width: 320px;
+$story-arrow-bottom: -15px;
+
+$story-slide-height: ( $story-image-height /  $story-image-width ) * 100%;
+$story-margin-left: $story-arrow-width/-2;
+
+/******************************** CHARACTERS *******************************/
+$character-padding-bottom: 8%;
+
+/******************************** PRODUCTION *******************************/
+$production-bio-margin-top: 20px;
+
+$production-image-width: 403px;
+$production-image-height: 300px;
+
+$production-image-percent: ( $production-image-height / $production-image-width ) * 100%;
+
+/********************************** CAST ***********************************/
+$cast-bio-margin-top: 20px;
+
+$cast-image-width: 403px;
+$cast-image-height: 300px;
+
+$cast-image-percent: ( $production-image-height / $production-image-width ) * 100%;
+
+/********************************* VIDEOS **********************************/
+$video-thumb-spacing: 30px;
+$video-thumb-image-width: 140px;
+$video-thumb-image-height: 98px;
+$video-thumb-padding: 10px;
+
+$video-player-margin-top: 15px;
+
+$video-percent: (9/16) * 100%;
+
+$video-thumb-min-height: $video-thumb-padding*2 + $video-thumb-image-height;
+$video-thumb-copy-left: $video-thumb-padding*2 + $video-thumb-image-width;
+
+/***************************** PRESS MATERIALS *****************************/

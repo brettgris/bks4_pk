@@ -1,0 +1,102 @@
+$font-family: "EB Garamond", "Times New Roman", Georgia, Serif;
+
+/************************ BODY ********************/
+
+body{
+	color: $copy-color;
+	font-family: $font-family;
+}
+
+/**************** HEADERS ********************/
+h1{
+	color: $headline-color;
+}
+
+h2{
+	color: $headline-color;
+	letter-spacing: 5px;
+}
+
+h3{
+	color: $headline-color;
+}
+
+h4{
+	color: $headline-color;
+	letter-spacing: 4px;
+}
+
+h5{
+	color: $headline-color;
+}
+
+h6{
+	color: $headline-color;
+}
+
+/**************** BODY COPY ********************/
+p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #aaa;
+
+	@media #{$x-small}{
+		font-size: 14px;
+		line-height: 16px;
+
+	}
+}
+
+a{
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+li{
+
+}
+
+.btn{
+
+}
+
+/**************** HEADER ********************/
+.menu a{
+	font-size: 18px;
+}
+
+.mobilemenu a {
+	font-size: 24px;
+}
+
+/**************** FOOTER ********************/
+.copyright p{
+	font-size: 10px;
+	color: $copyright-color;
+	line-height: 10px;
+}
+
+/**************** GLOBAL CLASSES ********************/
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.italic{
+	font-style: italic;
+}

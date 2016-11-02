@@ -1,0 +1,82 @@
+/*******************
+PRESS MATERIALS
+*******************/
+
+//-----ITEMS-------//
+$press-sections: 3;
+
+	/*******************
+	SECTIONS
+	*******************/
+
+	//-----SIZES-------//
+	$press-section-height: 400px;
+	$press-section-content-width: 80%;
+
+	//-----BORDERS-------//
+	$press-section-border-width: 1px;
+	$press-section-border-height: 80%;
+	$press-section-border-top: 10%;
+	$press-section-border-color: $med-grey;
+
+		/*******************
+		SECTION TITLE
+		*******************/
+
+		//-----SIZES-------//
+		$press-icon-margin: 0 0 10px 0;
+		$press-icon-padding: 0;
+		$press-icon-size: 48px;
+		$press-title-margin: 0;
+		$press-title-padding: 0;
+
+		//-----COLORS-------//
+		$press-title-color: $showcolor1;
+
+		//----IMAGES------//
+		$press-camera-background: url(#{$imgPath}icon-photo.svg);
+
+		//----FONTS------//
+		$press-title-font-size: 28px;
+		$press-title-letter-spacing: 2px;
+		$press-title-text-transform: uppercase;
+
+		/*******************
+		LINKS
+		*******************/
+
+		//----SIZES------//
+		$press-links-margin-top: 20px;
+		$press-links-padding-top: 15px;
+
+		//----BORDERS------//
+		$press-links-border-off: 1px solid transparent;
+		$press-links-border-hover: 1px solid $med-grey;
+
+			/*******************
+			LINK
+			*******************/
+
+			//----SIZES------//
+			$press-link-margin-bottom: 15px;
+
+			//----COLORS------//
+			$press-link-color: $med-light-grey;
+			$press-link-hover-color: $light-grey;
+			$press-link-sub-color: $med-grey;
+
+			//----FONTS------//
+			$press-link-font-size: 18px;
+		  	$press-link-line-height: 18px;
+		  	$press-link-text-transform: uppercase;
+
+				/*******************
+				SUB TEXT
+				*******************/
+
+				//----SIZES------//
+				$press-link-contact-name-margin-bottom: 5px;
+
+				//----FONTS------//
+				$press-link-sub-font-size: 16px;
+				$press-link-sub-text-transform: none;

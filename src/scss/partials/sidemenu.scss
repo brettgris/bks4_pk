@@ -1,0 +1,66 @@
+.sidemenu{
+	@include display-flex;
+	@include align-items(center);
+	@include justify-content(right);
+
+	@include background-image(linear-gradient(to left, rgba(0,0,0,.75) 0%, rgba(0,0,0,0) 100%));
+
+	.list{
+		width: $side-menu-width;
+
+		a{
+			display:block;
+			color: $menu-link-color;
+			position: relative;
+			overflow: hidden;
+			height: $sidemenu-link-height;
+			margin: $sidemenu-link-spacing 0;
+			font-size: 16px;
+			letter-spacing: 3px;
+			text-align:right;
+
+			@include transition-property(all);
+			@include transition-duration(.2s);
+			@include transition-timing-function(ease);
+
+			&:hover{
+				color: $menu-link-selected;
+			}
+
+			span{
+				display: block;
+				position: relative;
+				margin-right: 10px;
+			}
+
+			&:before{
+				content: " ";
+				position: absolute;
+				width: 100%;
+				height: 100px;
+				background: $menu-selected-background;
+				display:block;
+				@include opacity(.01);
+				left: 100%;
+
+				@include transition-property(all);
+				@include transition-duration(.3s);
+				@include transition-timing-function(ease);
+				@include transition-delay(.2s);
+			}
+
+			&.selected{
+				font-size: 18px;
+				height: $sidemenu-link-selected-height;
+				line-height:$sidemenu-link-selected-height+2;
+				margin: $sidemenu-link-selected-spacing 0;
+				color: $menu-link-selected;
+
+				&:before{
+					@include opacity(1);
+					left: 0%;
+				}
+			}
+		}
+	}
+}

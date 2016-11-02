@@ -1,0 +1,52 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css';
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond';
+@import "compass/css3";
+
+@import '../includes/fontawesome.scss';
+
+/************************  VARIABLES  ************************/
+$imgPath: "../images/";
+
+$white: #FFFFFF;
+$black: #000000;
+$dark-grey: #222;
+$med-dark-grey: #464646;
+$med-grey: #666666;
+$med-light-grey: #999;
+$light-grey: #cccccc;
+
+$showcolor1: #b9a683;
+$showcolor2: #635740;
+
+/************************  SETTINGS  ************************/
+@import '../settings/global-settings.scss';
+@import '../settings/header-settings.scss';
+@import '../settings/footer-settings.scss';
+@import '../settings/mobilemenu-settings.scss';
+@import '../partials/_mediaqueries.scss';
+@import '../partials/_type.scss';
+
+//SECTIONS
+@import '../settings/synopsis-settings.scss';
+@import '../settings/characters-settings.scss';
+@import '../settings/production-settings.scss';
+@import '../settings/cast-settings.scss';
+@import '../settings/videos-settings.scss';
+@import '../settings/press-materials-settings.scss';
+
+/************************  GLOBALS  ************************/
+@import '../partials/globals.scss';
+
+/************************  PARTIALS  ************************/
+@import '../partials/header.scss';
+@import '../partials/footer.scss';
+@import '../partials/mobilemenu.scss';
+@import '../partials/videoplayer.scss';
+
+/************************  SECTIONS  ************************/
+@import '../sections/synopsis.scss';
+@import '../sections/characters.scss';
+@import '../sections/production.scss';
+@import '../sections/cast.scss';
+@import '../sections/videos.scss';
+@import '../sections/pressmaterials.scss';

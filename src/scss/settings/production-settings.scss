@@ -1,0 +1,101 @@
+/*******************
+PRODUCTION
+*******************/
+
+	/*******************
+	THUMBS
+	*******************/
+
+	//----SIZES------//
+	$prod-thumb-left: 10px;
+
+	//----ZINDEX------//
+	$prod-thumbs-z: 1;
+
+		/*******************
+		ITEM
+		*******************/
+
+		//----SIZES------//
+		$prod-thumb-item-width: 35px;
+		$prod-thumb-item-height: 3px;
+		$prod-thumb-item-spacing: 4px;
+
+		//----COLORS------//
+		$prod-thumb-item-color: $med-grey;
+
+			/*******************
+			SELECTED
+			*******************/
+
+			//----SIZES------//
+			$prod-thumb-item-selected-width: $prod-thumb-item-width+7;
+
+			//----COLORS------//
+			$prod-thumb-item-selected-color: $showcolor1;
+
+	/*******************
+	MENU
+	*******************/
+
+	//----COLORS------//
+	$prod-menu-background: rgba(0,0,0,.85);
+
+	//----ZINDEX------//
+	$prod-menu-z: 5;
+
+		/*******************
+		ITEM
+		*******************/
+
+		//----BACKGROUND------//
+		$prod-menu-item-background: transparent;
+		$prod-menu-item-background-hover: $dark-grey;
+
+		//----BORDER------//
+		$prod-menu-item-border: 1px solid $med-grey;
+
+		//----SIZES------//
+		$prod-menu-item-padding: 3px 0;
+		$prod-menu-item-padding-hover: 20px 0;
+
+			/*******************
+			NAME
+			*******************/
+
+			//----FONTS------//
+			$prod-menu-item-name-font-size: 24px;
+			$prod-menu-item-name-font-size-hover: 28px;
+
+			//----COLORS------//
+			$prod-menu-item-name-color: $med-grey;
+			$prod-menu-item-name-color-hover: $white;
+
+			/*******************
+			POSITION
+			*******************/
+
+			//----FONTS------//
+			$prod-menu-item-position-font-size: 21px;
+			$prod-menu-item-position-letter-spacing: 1px;
+
+			//----COLORS------//
+			$prod-menu-item-position-color: $showcolor1;
+
+	/*******************
+	BIO
+	*******************/
+
+	//-------SIZES------//
+	$production-bio-margin-top: 20px;
+
+		/*******************
+		IMAGE
+		*******************/
+
+		//-------SIZES------//
+		$production-image-width: 403px;
+		$production-image-height: 300px;
+
+		//-------CALCULATIONS------//
+		$production-image-percent: ( $production-image-height / $production-image-width ) * 100%;

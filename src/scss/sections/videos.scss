@@ -1,0 +1,161 @@
+.videos{
+	.main-column {
+		.main{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+
+			.thumbs{
+				position: absolute;
+				z-index: $videos-thumbs-z;
+				width: 100%;
+				@include display-flex;
+				@include justify-content(center);
+
+				ul{
+					margin: $videos-thumbs-margin;
+
+					li{
+						width: $videos-thumb-width;
+						height: $videos-thumb-height;
+						border: $videos-thumb-border;
+						float: left;
+						list-style: none;
+						margin-right: $videos-thumb-spacing;
+						display: block;
+
+						&:last-child{
+							margin-right: 0;
+						}
+
+						&.selected{
+							background: $videos-thumb-selected-color;
+							border: $videos-thumb-border-selected;
+						}
+					}
+				}
+			}
+
+			.menu{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				z-index: $videos-menu-z;
+				overflow: hidden;
+				border-top: $video-menu-item-border;
+				border-bottom: $video-menu-item-border;
+
+				@include display-flex;
+				@include flex-direction(column);
+
+				ul{
+					@include flex-grow(1);
+					margin: 0;
+					height: 100%;
+					@include display-flex;
+					@include align-items(center);
+					position: relative;
+
+					li{
+						list-style: none;
+						//display: block;
+						@include flex-grow(1);
+						height: 100%;
+						text-align: center;
+						border-right: $video-menu-item-border;
+						background-size: cover;
+						background-position: center center;
+						position: relative;
+
+						@include transition-property(all);
+						@include transition-duration($video-menu-item-hover-speed);
+
+						&:last-child{
+							border-right: none;
+						}
+
+						&::before{
+							content:" ";
+							display: block;
+							position: absolute;
+							width: 100%;
+							height: 100%;
+							background: $videos-menu-background;
+
+							@include opacity(1);
+
+							@include transition-property(opacity);
+							@include transition-duration($video-menu-item-hover-speed);
+						}
+
+						.menu-container{
+							position: absolute;
+							z-index: 1;
+							width: 100%;
+							height: 100%;
+
+							@include display-flex;
+							@include align-items(center);
+							@include justify-content(center);
+
+							.graphic{
+								@include opacity(.01);
+								visibility: hidden;
+
+								@include transition-property(opacity);
+								@include transition-duration($video-menu-item-hover-speed);
+							}
+
+							h3{
+								color: $video-menu-title-color;
+								font-size: $video-menu-title-font-size-off;
+
+								@include transition-property(all);
+								@include transition-duration($video-menu-item-hover-speed);
+							}
+						}
+
+						&:hover{
+							@include flex-grow($video-menu-item-grow);
+
+							&::before{
+								@include opacity(.01);
+							}
+
+							.menu-container{
+								.graphic{
+									@include opacity(1);
+									visibility: visible;
+								}
+
+								h3{
+									font-size: $video-menu-title-font-size-hover;
+									color: $video-menu-title-color-hover;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.player{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			.arrows{
+				height: 100%;
+				position: relative;
+				padding: 0;
+
+				.title{
+					bottom: $video-arrow-bottom;
+					position: absolute;
+				}
+			}
+		}
+	}
+}

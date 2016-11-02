@@ -1,0 +1,67 @@
+/*******************
+VIDEOS
+*******************/
+
+	/*******************
+	THUMBS
+	*******************/
+
+	//----SIZES------//
+	$videos-thumbs-margin: 10px 0 0 0;
+
+	//----ZINDEX------//
+	$videos-thumbs-z: 1;
+
+		/*******************
+		THUMB
+		*******************/
+
+		//----SIZES------//
+		$videos-thumb-width: 30px;
+		$videos-thumb-height: 20px;
+		$videos-thumb-spacing: 8px;
+
+		//----COLORS------//
+		$videos-thumb-selected-color: $showcolor1;
+
+		//----BORDERS------//
+		$videos-thumb-border: 1px solid $med-dark-grey;
+		$videos-thumb-border-selected: 1px solid $videos-thumb-selected-color;
+
+	/*******************
+	MENU
+	*******************/
+
+	//----COLORS------//
+	$videos-menu-background: $black;
+
+	//----ZINDEX------//
+	$videos-menu-z: 5;
+
+		/*******************
+		ITEM
+		*******************/
+
+		//----TRANSITION------//
+		$video-menu-item-hover-speed: .5s;
+
+		//----SIZE------//
+		$video-menu-item-grow: 1.5;
+
+		//----COLORS------//
+		$video-menu-title-color: $med-grey;
+		$video-menu-title-color-hover: $white;
+
+		//----BORDER------//
+		$video-menu-item-border: 1px solid $med-dark-grey;
+
+		//----FONT------//
+		$video-menu-title-font-size-off: 36px;
+		$video-menu-title-font-size-hover: 48px;
+
+	/*******************
+	ARROWS
+	*******************/
+
+		//----SIZE------//
+		$video-arrow-bottom: 50px;

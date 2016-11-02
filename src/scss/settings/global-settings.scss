@@ -1,0 +1,53 @@
+/*******************
+BODY
+*******************/
+
+//-----COLOR-------//
+$body-background: $black no-repeat center center/cover;
+
+/*******************
+BODY
+*******************/
+
+//-----SIZES-------//
+$content-margin-top: 30px;
+
+/*******************
+TYPE
+*******************/
+
+//-----COLOR-------//
+$copy-color: $med-grey;
+$headline-color: $white;
+$link-color: $black;
+$copyright-color: $med-grey;
+
+/*******************
+BORDERS
+*******************/
+
+//-----COLOR-------//
+$border-color: rgba(255,255,255,.4);
+
+/*******************
+ARROWS
+*******************/
+
+//-----SIZES-------//
+$arrow-size: 40px;
+
+//-----COLORS-------//
+$arrow-color: $white;
+$arrow-color-hover: $showcolor1;
+
+/*******************
+MENU TITLE
+*******************/
+
+//-----COLORS-------//
+$submenu-background: url(#{$imgPath}globals/menu.jpg);
+$submenu-gradient-alpha: .25;
+
+//-----SIZES-------//
+$submenu-height: 90px;
+$submenu-gradient-height: 30px;

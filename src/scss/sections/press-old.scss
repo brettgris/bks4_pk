@@ -1,0 +1,79 @@
+.pressmaterials{
+	.main-column {
+		@include display-flex;
+		@include align-items( center );
+
+		@media #{$small}{
+			display: block;
+			padding-top: $header-ta-height+20;
+			padding-bottom: 30px;
+		}
+
+		.main{
+			h3{
+				margin-left: 15px;
+				color: white;
+				margin-top: 0px;
+			}
+
+			.list{
+				.clickitem{
+					margin-bottom: $press-category-spacing;
+					cursor: pointer;
+
+					.content{
+						display: block;
+						background-color: $press-thumb-background;
+						background-repeat: no-repeat;
+						background-position: 15px center;
+						height: $press-item-height;
+						@include display-flex;
+						@include align-items( center );
+
+						.copy{
+							padding-left: $press-icon-width;
+							color: $press-copy-color;
+							padding-right: 10px;
+							line-height: 14px;
+
+							.name{
+								color: $press-thumb-title;
+								font-size: 16px;
+								line-height: 16px;
+								margin-bottom: 3px;
+							}
+						}
+
+						&:hover{
+							background-color: $press-thumb-background-hover;
+
+							.copy{
+								color: $press-copy-color-hover;
+							}
+						}
+					}
+
+					&.mediaroom .content{
+						background-image: url(#{$imgPath}downloads/pictureicon.png);
+					}
+
+					&.download .content{
+						background-image: url(#{$imgPath}downloads/pdf_icon.png);
+					}
+
+					&.contact .content{
+						background-image: url(#{$imgPath}downloads/email_icon.png);
+
+						.copy{
+							line-height: 16px;
+
+							.company, .phone{
+								color: $press-third-color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

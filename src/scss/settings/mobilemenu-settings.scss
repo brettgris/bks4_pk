@@ -1,0 +1,14 @@
+/*******************
+Mobile Menu
+*******************/
+
+//-----COLORS-------//
+$mobilemenu-background: rgba(0,0,0,.9);
+$mobilemenu-color: $light-grey;
+$mobilemenu-color-hover: $white;
+$mobilemenu-hightlight-color: $showcolor1;
+
+//-----BORDERS-------//
+$mobile-menu-button-border-size: 1px;
+$mobile-menu-button-border: $mobilebtn-border-size solid $mobile-btn-color;
+$mobile-menu-button-hover-border: $mobilebtn-border-size solid $mobile-btn-color-hover;

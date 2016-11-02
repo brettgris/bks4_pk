@@ -1,0 +1,13 @@
+.introbtn{
+	background: $intro-btn-background;
+	width: $introbtn-width;
+	display: block;
+	height: $introbtn-height;
+	position: absolute;
+	bottom: $introbtn-bottom;
+	left: $introbtn-left;
+	margin-left: $introbtn-margin-left;
+	text-align: center;
+	line-height: $introbtn-height;
+	color: $intro-btn-color;
+}

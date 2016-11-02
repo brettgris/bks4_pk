@@ -1,0 +1,62 @@
+/*******************
+Header
+*******************/
+
+//-----SIZES-------//
+$header-height: 80px;
+
+//-----COLORS-------//
+$header-background: $black;
+
+	/*******************
+	Title Art
+	*******************/
+
+	//-----SIZES-------//
+	$header-ta-width: 284px;
+	$header-ta-height: 74px;
+
+	//-----COLORS-------//
+	$header-ta-background: url(#{$imgPath}header/ta.jpg) left center/contain no-repeat;
+
+	/*******************
+	Menu
+	*******************/
+
+	//-----SIZES-------//
+	$menu-spacing: 20px;
+
+		/*******************
+		Menu Link
+		*******************/
+
+		//-----SIZES-------//
+		$menu-link-height: 25px;
+		$menu-link-selected-height: 35px;
+		$menu-link-spacing: 5px;
+		$menu-link-selected-spacing: 10px;
+
+		//-----COLORS-------//
+		$menu-selected-background: $showcolor1;
+		$menu-link-color: $light-grey;
+		$menu-link-hover: $white;
+		$menu-link-selected: $white;
+		$menu-link-highlight-color: $showcolor1;
+
+		/*******************
+		Mobile Button
+		*******************/
+
+		//-----SIZES-------//
+		$mobilebtn-size: 35px;
+		$mobilebtn-spacing: 15px;
+
+		//-----BORDERS-------//
+		$mobilebtn-border-size: 4px;
+		$mobilebtn-border-radius: 1px;
+		$mobilebtn-line-width: 80%;
+		$mobilebtn-line-spacing: 4px;
+
+		//-----COLORS-------//
+		$mobile-btn-color: $light-grey;
+		$mobile-btn-color-hover: $white;

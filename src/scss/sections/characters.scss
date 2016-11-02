@@ -1,0 +1,207 @@
+.characters{
+	.main-column {
+		.main{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+
+			.thumbs{
+				position: absolute;
+				width: 100%;
+				z-index: $chars-thumbs-z;
+				top: $chars-thumb-top;
+
+				@include display-flex;
+				@include align-items(center);
+				@include justify-content(center);
+
+				ul{
+					li{
+						list-style: none;
+						background: $chars-thumb-item-color;
+						width: $chars-thumb-item-width;
+						height: $chars-thumb-item-height;
+						border: $chars-thumb-border;
+						float: left;
+						margin-right: $chars-thumb-item-spacing;
+
+						&:last-child{
+							margin-right: 0;
+						}
+
+						@include transition-property(border, background);
+						@include transition-duration(.5s);
+
+						&.selected{
+							border: $chars-thumb-item-selected-border;
+							background: $chars-thumb-item-selected-color;
+						}
+					}
+				}
+			}
+
+			.menu{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background: $chars-menu-background;
+				z-index: $chars-menu-z;
+				overflow: hidden;
+
+				@include display-flex;
+				@include flex-direction(column);
+
+				ul{
+					border-top:$chars-menu-item-border;
+					position: relative;
+					@include display-flex;
+					@include flex-direction(column);
+
+					@include flex-grow(1);
+
+					li{
+						list-style: none;
+						text-align: center;
+						border-bottom:$chars-menu-item-border;
+						background: $chars-menu-item-background;
+
+						@include flex-grow(1);
+
+						@include display-flex;
+						@include align-items(center);
+						@include justify-content(center);
+
+						@include transition-property(all);
+						@include transition-duration(1s);
+
+						div{
+							@include display-flex;
+							@include align-items(center);
+
+							.graphic{
+								@include opacity(.01);
+								visibility: hidden;
+
+								@include transition-property(opacity);
+								@include transition-duration(1s);
+							}
+
+							h2{
+								font-size: $chars-menu-item-name-font-size;
+								color: $chars-menu-item-name-color;
+								margin: 0 20px;
+								padding: 0;
+								text-transform: uppercase;
+
+								@include transition-property(font-size, color);
+								@include transition-duration(.5s);
+							}
+						}
+
+						&:hover{
+							@include flex-grow(3);
+							background: $chars-menu-item-background-hover;
+
+							div{
+								.graphic{
+									@include opacity(1);
+									visibility: visible;
+								}
+
+								h2{
+									font-size: $chars-menu-item-name-font-size-hover;
+									color: $chars-menu-item-name-color-hover;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.slides {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+
+				.slide{
+					height: 100%;
+					@include display-flex;
+					@include align-items(flex-end);
+
+					&.full{
+						@include align-items(center);
+						width: 97%;
+						margin: auto;
+					}
+
+					.copy{
+						width: 100%;
+						margin-bottom: 15px;
+					}
+				}
+			}
+
+			&.forward{
+				.slide{
+					&.slider-enter {
+						left: 100%;
+						@include opacity(.01);
+					}
+
+					&.slider-enter.slider-enter-active {
+						left: 0%;
+						@include opacity(1);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+
+					&.slider-leave {
+						left: 0%;
+						@include opacity(1);
+					}
+
+					&.slider-leave.slider-leave-active {
+						left:-100%;
+						@include opacity(.01);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+				}
+			}
+
+			&.backward{
+				.slide{
+					&.slider-enter {
+						left: -100%;
+						@include opacity(.01);
+					}
+
+					&.slider-enter.slider-enter-active {
+						left: 0%;
+						@include opacity(1);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+
+					&.slider-leave {
+						left: 0%;
+						@include opacity(1);
+					}
+
+					&.slider-leave.slider-leave-active {
+						left:100%;
+						@include opacity(.01);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+				}
+			}
+		}
+	}
+}

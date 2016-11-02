@@ -1,0 +1,86 @@
+/*******************
+CHARACTERS
+*******************/
+
+	/*******************
+	THUMBS
+	*******************/
+
+	//----SIZES------//
+	$chars-thumb-top: 10px;
+
+	//----ZINDEX------//
+	$chars-thumbs-z: 1;
+
+		/*******************
+		ITEM
+		*******************/
+
+		//----SIZES------//
+		$chars-thumb-item-width: 30px;
+		$chars-thumb-item-height: 20px;
+		$chars-thumb-item-spacing: 4px;
+
+		//----COLORS------//
+		$chars-thumb-item-color: transparent;
+
+		//----BORDER------//
+		$chars-thumb-border: 1px solid $med-grey;
+
+			/*******************
+			SELECTED
+			*******************/
+
+			//----COLORS------//
+			$chars-thumb-item-selected-color: $showcolor1;
+
+			//----BORDER------//
+			$chars-thumb-item-selected-border: 1px solid $chars-thumb-item-selected-color;
+
+	/*******************
+	MENU
+	*******************/
+
+		//----COLORS------//
+		$chars-menu-background: rgba(0,0,0,.85);
+
+		//----ZINDEX------//
+		$chars-menu-z: 5;
+
+			/*******************
+			ITEM
+			*******************/
+
+			//----BACKGROUND------//
+			$chars-menu-item-background: transparent;
+			$chars-menu-item-background-hover: $dark-grey;
+
+			//----BORDER------//
+			$chars-menu-item-border: 1px solid $med-grey;
+
+			//----SIZES------//
+			$chars-menu-item-padding: 3px 0;
+			$chars-menu-item-padding-hover: 20px 0;
+
+				/*******************
+				NAME
+				*******************/
+
+				//----FONTS------//
+				$chars-menu-item-name-font-size: 24px;
+				$chars-menu-item-name-font-size-hover: 28px;
+
+				//----COLORS------//
+				$chars-menu-item-name-color: $med-grey;
+				$chars-menu-item-name-color-hover: $white;
+
+				/*******************
+				POSITION
+				*******************/
+
+				//----FONTS------//
+				$chars-menu-item-position-font-size: 21px;
+				$chars-menu-item-position-letter-spacing: 1px;
+
+				//----COLORS------//
+				$chars-menu-item-position-color: $showcolor1;

@@ -1,0 +1,101 @@
+/*******************
+PRODUCTION
+*******************/
+
+	/*******************
+	THUMBS
+	*******************/
+
+	//----SIZES------//
+	$cast-thumb-left: 10px;
+
+	//----ZINDEX------//
+	$cast-thumbs-z: 1;
+
+		/*******************
+		ITEM
+		*******************/
+
+		//----SIZES------//
+		$cast-thumb-item-width: 35px;
+		$cast-thumb-item-height: 3px;
+		$cast-thumb-item-spacing: 4px;
+
+		//----COLORS------//
+		$cast-thumb-item-color: $med-grey;
+
+			/*******************
+			SELECTED
+			*******************/
+
+			//----SIZES------//
+			$cast-thumb-item-selected-width: $cast-thumb-item-width+7;
+
+			//----COLORS------//
+			$cast-thumb-item-selected-color: $showcolor1;
+
+	/*******************
+	MENU
+	*******************/
+
+	//----COLORS------//
+	$cast-menu-background: rgba(0,0,0,.85);
+
+	//----ZINDEX------//
+	$cast-menu-z: 5;
+
+		/*******************
+		ITEM
+		*******************/
+
+		//----BACKGROUND------//
+		$cast-menu-item-background: transparent;
+		$cast-menu-item-background-hover: $dark-grey;
+
+		//----BORDER------//
+		$cast-menu-item-border: 1px solid $med-grey;
+
+		//----SIZES------//
+		$cast-menu-item-padding: 3px 0;
+		$cast-menu-item-padding-hover: 20px 0;
+
+			/*******************
+			NAME
+			*******************/
+
+			//----FONTS------//
+			$cast-menu-item-name-font-size: 24px;
+			$cast-menu-item-name-font-size-hover: 28px;
+
+			//----COLORS------//
+			$cast-menu-item-name-color: $med-grey;
+			$cast-menu-item-name-color-hover: $white;
+
+			/*******************
+			POSITION
+			*******************/
+
+			//----FONTS------//
+			$cast-menu-item-position-font-size: 21px;
+			$cast-menu-item-position-letter-spacing: 1px;
+
+			//----COLORS------//
+			$cast-menu-item-position-color: $showcolor1;
+
+	/*******************
+	BIO
+	*******************/
+
+	//-------SIZES------//
+	$cast-bio-margin-top: 20px;
+
+		/*******************
+		IMAGE
+		*******************/
+
+		//-------SIZES------//
+		$cast-image-width: 403px;
+		$cast-image-height: 300px;
+
+		//-------CALCULATIONS------//
+		$cast-image-percent: ( $cast-image-height / $cast-image-width ) * 100%;

@@ -1,0 +1,36 @@
+.synopsis{
+	.main-column {
+		.main{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+
+			.content{
+				width: $synopsis-width;
+				height: 100%;
+
+				@include display-flex;
+				@include align-items(center);
+				@include justify-content(center);
+
+				.copy{
+					width: $synopsis-width-copy;
+
+					.title-art{
+						width: $synopsis-title-art-width;
+						margin: $synopsis-title-art-margin;
+					}
+
+					.tag-line{
+						width: $synopsis-tag-line-width;
+						margin: $synopsis-tag-line-margin;
+					}
+
+					p{
+						text-align: $synopsis-text-align;
+					}
+				}
+			}
+		}
+	}
+}

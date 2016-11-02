@@ -1,0 +1,501 @@
+{
+	"footer": {
+		 "showlink": "https://www.starz.com/series/blacksails/episodes",
+		 "social": [{
+			  "name": "facebook",
+			  "class": "fa-facebook",
+			  "link": "https://www.facebook.com/blacksails.starz"
+		 }, {
+			  "name": "twitter",
+			  "class": "fa-twitter",
+			  "link": "https://www.twitter.com/BlkSails_STARZ"
+		 }, {
+			  "name": "instagram",
+			  "class": "fa-instagram",
+			  "link": "https://www.instagram/blacksails_starz"
+		 }, {
+			  "name": "tumblr",
+			  "class": "fa-tumblr",
+			  "link": "http://blacksailsstarz.tumblr.com/"
+		 }, {
+			  "name": "youtube",
+			  "class": "fa-youtube-play",
+			  "link": "https://www.youtube.com/playlist?list=PLYg6DkgTt8JAxioE0S3rBVhAbhkvrNnNv"
+		 }],
+		 "copyright": "STARZ and related channels and service marks are the property of Starz Entertainment, LLC. Blacks Sails © 2016 Starz Entertainment, LLC. All Rights Reserved."
+	},
+	"sections": [{
+		"name": "Intro",
+		"class": "intro",
+		"link": "",
+		"maincontent": "IntroVideo",
+		"video": "text_tester",
+		"loop": true,
+		"background": "images/backgrounds/trailer.jpg",
+		"content": {
+			 "sources": [{
+				  "path": "https://securedownload.starz.com/csid/org8041_15_a_ges1_herotrailer60_540_1458780731.mp4",
+				  "type": "video/mp4"
+			 }]
+		}
+	},{
+		"name": "Synopsis",
+		"class": "synopsis",
+		"link": "synopsis",
+		"menu": true,
+		"maincontent": "Synopsis",
+		"video": "pk_1",
+		"loop": false,
+		"background": "images/backgrounds/key.jpg",
+		"content": {
+			 "titleart": "images/intro/title-art.png",
+			 "tagline": "images/intro/tagline.png",
+			 "synopsis": [
+				  "Hundreds of British soldiers lie dead in a forest&#8230; the Royal Navy sails back to England in retreat&#8230; the West Indies are now a war zone, and the shores of New Providence Island have never been bloodier. With the help of Eleanor Guthrie, Woodes Rogers transforms Nassau into a fortress without walls, as Captain Flint amasses a fleet of unprecedented strength, hoping to strike the final blow against civilization and reshape the world forever. Meanwhile, from within the island&#8230; an insurgency builds, fueled by the legend of its exiled leader, whose name keeps grown men awake at night&#8230; the one they call &#8220;Long John Silver.&#8221;"
+			 ]
+		}
+	},{
+		"name": "Characters",
+		"class": "characters",
+		"link": "characters",
+		"menu": true,
+		"maincontent": "CharacterBio",
+		"video": "flint",
+		"background": "images/backgrounds/ghost_fire.jpg",
+		"loop": false,
+		"onComplete": "NEXT_ITEM",
+		"content": [{
+			 "name": "Captain Flint",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "flint",
+			 "loop": false
+		},{
+			 "name": "John Silver",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "silver",
+			 "loop": false
+		},{
+			 "name": "Eleanor Guthrie",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "eleanor",
+			 "loop": false
+		},{
+			 "name": "Max",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "max",
+			 "loop": false
+		},{
+			 "name": "Edward Teach",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "teach",
+			 "loop": false
+		},{
+			 "name": "Billy Bones",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "billy",
+			 "loop": false
+		},{
+			 "name": "Anne Bonny",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "anne",
+			 "loop": false
+		},{
+			 "name": "Jack Rackham",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "jack",
+			 "loop": false
+		},{
+			 "name": "Woodes Rogers",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "woodes",
+			 "loop": false
+		},{
+			 "name": "Madi",
+			 "actor": "",
+			 "background": "images/backgrounds/ghost_fire.jpg",
+			 "video": "madi",
+			 "loop": false
+		}]
+	},{
+		"name": "Production",
+		"class": "production",
+		"link": "production",
+		"menu": true,
+		"maincontent": "ProductionBio",
+		"video": false,
+		"loop": true,
+		"background": "images/backgrounds/hollytommy.jpg",
+		"content": [{
+			 "name": "COURTNEY A. KEMP",
+			 "role": "CREATOR, SHOWRUNNER, EXECUTIVE PRODUCER",
+			 "desc": [
+				  "Courtney A. Kemp is a highly regarded creator, showrunner and producer in the television industry. Kemp is the mind behind Starz&#8217; critically-acclaimed gritty New York drama, &#8220;Power.&#8221; The hit series marks her debut as a Creator and Showrunner and follows the complex character James &#8216;Ghost&#8217; St. Patrick and his empire. Under Kemp&#8217;s leadership, the series doubled viewership from its premiere episode to its finale in the first season and generated the largest concentration of African-American viewership of any scripted premium series in almost a decade. As the second season wrapped, &#8220;Power&#8221; drew a record 6.3 million viewers each week, making it the network&#8217;s most highly watched original series on record. For her work on the show, Marie Claire Magazine named Kemp one of &#8220;The 50 Most Influential Women in America,&#8221; she was included as one of the female powerhouses on Elle Magazine&#8217;s &#8220;The Agenda&#8221; and named one of Ebony Magazine&#8217;s &#8220;Power 100&#8221; honorees.",
+				  "Previously, Kemp was a Writer and Supervising Producer on the celebrated television show &#8220;The Good Wife,&#8221; which went on to garner nominations for a Primetime Emmy Award for Outstanding Drama Series and a Writers Guild Award for Dramatic Series. She also worked on ABC&#8217;s &#8220;Eli Stone&#8221; and Fox&#8217;s &#8220;Justice&#8221; and &#8220;The Bernie Mac Show,&#8221; among others. Prior to her work in television, Kemp wrote for many prestigious magazines, including GQ, Vibe and Marie Claire.",
+				  "Kemp holds a B.A. from Brown University in English Literature and received her M.A. in English Literature from Columbia University."
+			 ],
+			 "image": "images/production/kemp.jpg"
+		}, {
+			 "name": "CURTIS &#8216;50 CENT&#8217; JACKSON",
+			 "role": "KANAN, EXECUTIVE PRODUCER",
+			 "desc": [
+				  "50 Cent, born Curtis James Jackson III, is an American rapper, entrepreneur, investor and actor from Queens, New York. He rose to fame with the release of his 2003 album &#8220;Get Rich or Die Tryin&#8217;,&#8221; which has sold more than eight million copies. The Grammy Award winner has sold more than 30 million albums worldwide and has been awarded numerous accolades including: 13 Billboard Music Awards, six World Music Awards, three American Music Awards and four BET Awards. He was ranked as the number one rap artist and most successful &#8220;Hot 100 Artist of the 2000s&#8221; by Billboard Magazine, as well as that decade&#8217;s sixth-best artist and fourth top male artist. 50 Cent surprised fans in 2014 reuniting G-Unit and releasing new music. In June 2014, 50 Cent debuted his fifth studio album, &#8220;Animal Ambition&#8221; and currently is gearing up for his next studio album, &#8220;Street King Immortal,&#8221; which includes several featured guests such as: Eminem and Chris Brown. In December 2015, he released &#8220;The Kanan Tape&#8221; mixtape, named after his character on &#8220;Power.&#8221;",
+				  "What began as music chart dominance for the rap music phenomenon quickly transformed to success in corporate America as a multi-tiered business mogul to be reckoned with. 50 Cent has also carved out a successful and acclaimed career as an actor and producer. He filmed Spy with Melissa McCarthy and Jude Law and also co-starred in the Antoine Fuqua directed boxing drama, Southpaw, along with Jake Gyllenhaal, Forest Whitaker and Rachel McAdams. Both films were released in summer 2015. In 2005, 50 Cent founded the production company, G-Unit Film & Television Inc., producing a wide variety of content across various platforms. In September 2015 it was announced that Starz signed 50 Cent and G-Unit Film & Television, Inc. to an exclusive two-year overall premium television deal, where he will develop new projects for the network and continue as Executive Producer on &#8220;Power.&#8221; He was also featured on Billboard Magazine&#8217;s First Annual &#8220;TV&#8217;s Top Music Power Players List&#8221; for his work on &#8220;Power.&#8221; In December 2015, it was announced that Jackson had teamed up with Will Packer to produce and appear in the upcoming Fox comedy &#8220;My Friend 50.&#8221;",
+				  "Recognized as one of the most talented and prolific music artists of his time, 50 Cent has managed to leverage his star power into record-breaking brand extensions encompassing a broad spectrum of businesses."
+			 ],
+			 "image": "images/production/jackson.jpg"
+		}, {
+			 "name": "MARK CANTON",
+			 "role": "EXECUTIVE PRODUCER",
+			 "desc": [
+				  "Mark Canton has been a preeminent force in the entertainment industry helping to bring hundreds of pictures to the screen in his capacity as a senior studio executive and producer. Canton controls a large number of high profile projects in various stages of development, pre-production, production and post-production.",
+				  "In 2014 his film <i>300: Rise of an Empire</i>, the companion to the mega-hit, <i>300</i>, opened to new box office records around the world. Last December, Twentieth Century Fox released The Pyramid, a horror film set against the intersection of ancient Egyptology and modern Archeology, directed by Gregory Levasseur.",
+				  "<i>Cake</i>, a dark comedy written by Patrick Tobin, directed by Daniel Barnz and starring Jennifer Aniston was released in late 2014 to critical and audience acclaim. It was the first project made under a new venture between Cinelou Films and China&#8217;s Shenghua Entertainment. Cinelou is currently shooting The Comedian in New York City, a dark comedy starring Robert DeNiro, Danny DeVito and Leslie Mann.",
+				  "In the television arena, Canton has entered into a first look arrangement with Starz for the development and production of cutting edge, high-concept original programming for the network. Also in television, Canton and CBS Studios have set up &#8220;Friday the 13th&#8221; at the CW, which reimagines the iconic &#8216;Jason&#8217; and the creepy town of Crystal Lake. And at Fox is &#8216;Poison,&#8217; which Atmosphere developed from the hit Spanish series &#8220;Gran Reserve.&#8221;",
+				  "Canton initially joined Warner Bros. as Vice President of Production, rising to Senior Vice President and President of Worldwide Theatrical Production. During his tenure at the studio, Canton was instrumental in creating the notable Batman, Lethal Weapon and National Lampoon&#8217;s Vacation film franchises. His creative influence brought some of today&#8217;s most powerful filmmakers to the fore and some of the studio&#8217;s most successful films to the screen. The latter included Tim Burton&#8217;s <i>Pee Wee&#8217;s Big Adventure</i>, <i>Batman</i>, <i>Beetlejuice</i>, the Academy Award-winning <i>Driving Miss Daisy</i> and Martin Scorsese&#8217;s <i>Goodfellas</i>.",
+				  "He departed Warner Bros. to join Sony Pictures Entertainment&#8217;s Columbia Pictures as Chairman. In the ensuing years he rose to Chairman of the Columbia TriStar Motion Picture Companies, with all creative, operational and management responsibility for Columbia Pictures, Triumph Films, Sony Pictures Classics SPE&#8217;s international theatrical operations and Columbia TriStar&#8217;s strategic motion picture alliances.",
+				  "Soon after joining SPE Canton revitalized motion picture production operations, restructured the marketing and distribution companies and released a wide range of critically-acclaimed action and comedy hits, among them: <i>A Few Good Men</i>, <i>Groundhog Day</i>, <i>In the Line of Fire</i>, <i>Bram Stoker&#8217;s Dracula</i>, <i>Bad Boys</i>, <i>The Net</i>, <i>The Professional</i>, <i>The Fifth Element</i>, and <i>Jumanji</i>. Canton also championed a distinctive slate of dramas and romantic comedies, such as the Oscar-winning <i>Sense and Sensibility</i>, <i>Legends of the Fall</i>, <i>The Mirror Has Two Faces</i>, <i>A League of Their Own</i>, <i>Fly Away Home</i>, <i>Sleepless in Seattle</i>, <i>Poetic Justice</i>, <i>The Age of Innocence</i>, <i>Little Women</i>, <i>The Remains of the Day</i> and <i>The People vs. Larry Flynt</i>.",
+				  "Also produced under Canton&#8217;s aegis at Sony were the Academy Award-winning <i>As Good As It Gets</i>, starring Jack Nicholson and Helen Hunt; Oscar-winner <i>Jerry Maguire</i>, starring Tom Cruise and Cuba Gooding Jr.; <i>Men in Black</i>, starring Will Smith and Tommy Lee Jones; the Julia Roberts romantic comedy <i>My Best Friend&#8217;s Wedding</i>; the thriller <i>Anaconda</i>; and the Wolfgang Peterson film <i>Air Force One</i> starring Harrison Ford. In addition Canton initiated <i>I Know What You Did Last Summer</i>, <i>Starship Troopers</i>, <i>Zorro</i>, <i>Godzilla</i>, and <i>Stepmom</i>.",
+				  "Following Sony, Canton returned to Warner Bros. to create his own production entity, The Canton Company. His first picture was the Christmas classic <i>Jack Frost</i>, followed by the much-anticipated remake of the British cult classic <i>Get Carter</i>, and the dramatic Mars thriller <i>Red Planet</i>.",
+				  "In early 2002 he joined Artists Production Group as a partner, Chairman and CEO and in December 2003, he launched Atmosphere Entertainment MM &#8211; an entrepreneurial venture to develop, produce and finance theatrical motion pictures and television programming.",
+				  "A native of New York, Canton is a UCLA graduate (magna cum laude) and a member of UCLA&#8217;s National Honor Society for American Studies. He delivered the 2011 commencement address at UCLA&#8217;s School of History. In addition to serving on the UCLA Board of Councilors and the Deans Advisory Board for the School of Theatre, Film, and Television, Canton was Vice Chairman of the Board of Directors of the American Film Institute and Founder and is Chairman Emeritus of AFI&#8217;s Third Decade Council. In recent years he has co-chaired the prestigious Ischia Global Film & Music Festival and the Los Angeles, Italia Film Festival."
+			 ],
+			 "image": "images/production/canton.jpg"
+		}, {
+			 "name": "RANDALL EMMETT",
+			 "role": "EXECUTIVE PRODUCER",
+			 "desc": [
+				  "Randall Emmett is one of the entertainment industry&#8217;s most prolific film producers, having produced over 80 feature films since his start as Mark Wahlberg&#8217;s assistant. Emmett co-founded Emmett/Furla Films, a production company specializing in financing and producing top tier entertainment for the theatrical marketplace. By combining financial acumen with an incisive creative sensibility, he has produced and financed a wide array of films and television.",
+				  "Emmett&#8217;s ability to package films with well-known actors and filmmakers has resulted in major box office success, netting more than one billion dollars in box office sales. He has also forged strong partnerships with major Hollywood studios to finance and distribute commercial films. These films and others have played at world-acclaimed film festivals such as Sundance, Toronto, Berlin, Venice, Telluride, and many have been nominated for Independent Spirit and Golden Globe Awards.",
+				  "Some Emmett produced features include: <i>Lone Survivor</i>, directed by Peter Berg, starring Mark Wahlberg, Taylor Kitsch and Emile Hirsh; <i>2 Guns</i>, starring Mark Wahlberg and Denzel Washington; <i>Broken City</i>, starring Mark Wahlberg, Russell Crowe and Catherine Zeta-Jones; <i>End of Watch</i>, written and directed by David Ayer, starring Jake Gyllenhaal and Michael Pe&#241;a. Other past films include: <i>Narc</i>, <i>Amityville Horror</i>, <i>Bad Lieutenant: Port of Call New Orleans</i>, <i>Righteous Kill</i>, <i>88 Minutes</i>, <i>King of California</i>, and <i>16 Blocks</i>. Emmett/Furla&#8217;s TV division is also currently developing a &#8220;Friday the 13th&#8221; series for CBS/CW and has a first look deal with Pilgrim entertainment.",
+				  "Emmett recently wrapped production on <i>478</i> starring Arnold Schwarzenegger and Scoot McNairy. The highly anticipated drama, <i>Silence</i>, from award-winning director Martin Scorsese, starring Liam Neeson, Adam Driver, and Andrew Garfield is in post production.",
+				  "Born and raised in Miami, Emmett graduated from the respected performing arts high school, New World School of the Arts. As an undergrad, he attended The School of Visual Arts in New York, where he found his calling as a producer. Presently, he speaks at various industry conferences and mentors up and coming filmmakers at UCLA&#8217;s School of Continuing Education. He lives in Los Angeles with his family."
+			 ],
+			 "image": false
+		}, {
+			 "name": "BART WENRICH",
+			 "role": "CO-EXECUTIVE PRODUCER",
+			 "desc": [
+				  "Bart Wenrich began his television career working in the locations department and served as the location manager on a number of films set in New York City including <i>Swimming to Cambodia</i> (1987), <i>Rooftops</i> (1989), <i>A Shock to the System</i> (1990), <i>A Rage in Harlem</i> (1991), and <i>Malcolm X</i> (1992).",
+				  "Wenrich segued into television on the hit series &#8220;New York Undercover,&#8221; and was promoted to unit production manager until the series ended in 1998. His other television credits as a Unit Production Manager include &#8220;The Sopranos,&#8221; &#8220;Hack,&#8221; &#8220;Jonny Zero,&#8221; &#8220;Love Monkey,&#8221; and &#8220;Gossip Girl.&#8221; In 2009, Wenrich made his directorial debut with the &#8220;Gossip Girl&#8221; webisode spin-off series, &#8220;Chasing Dorota.&#8221; He went on to direct three &#8220;Gossip Girl&#8221; episodes: &#8220;It-Girl Happened One Night,&#8221; &#8220;Raiders of the Lost Art,&#8221; and &#8220;Dirty Rotten Scandals&#8221; in 2011 and 2012. He became Producer in the final season of &#8220;Gossip Girl.&#8221;",
+				  "Wenrich resides in New York with his wife. This is the third season of &#8220;Power&#8221; that he has produced."
+			 ],
+			 "image": false
+		}, {
+			 "name": "SHANA STEIN",
+			 "role": "CO-EXECUTIVE PRODUCER",
+			 "desc": [
+				  "Shana Stein is a 20-year veteran of the film and television industry, having produced independent films, hit television shows and blockbuster music videos. In independent films, Stein produced <i>Hell Ride</i>, which was executively produced and presented by Quentin Tarantino. <i>Hell Ride</i> premiered at Sundance and stars Vinnie Jones, Dennis Hopper, Michael Madsen and David Carradine and was distributed by the Weinsteins&#8217; Dimension Films. Stein earlier produced <i>Restaurant</i> starring Oscar-winner Adrien Brody and Lauryn Hill. <i>Restaurant</i> premiered at the Los Angeles Independent Film Festival and was distributed globally.",
+				  "Prior to &#8220;Power,&#8221; she co-executively produced three seasons of the CBS drama &#8220;Unforgettable&#8221; and four seasons of the CW drama &#8220;90210.&#8221; She served as Co-Producer on the USA Network original series &#8220;Monk,&#8221; which she worked on for seven seasons.",
+				  "Stein began her career in the iconic agent-training program at the William Morris Agency. After producing music videos, she served as director of development for Steve Golin&#8217;s Anonymous Content.",
+				  "Most recently, Stein developed Anthony Maranville&#8217;s screenplay for television star Poppy Montgomery which is currently in development with Little Engine and ITV. For the pilot teaser, she produced a new-media cell phone project with Microsoft, with new technology they created just for the venture.",
+				  "Stein earned her B.F.A. from New York University&#8217;s Tisch School of the Arts and her MFA from The American Film Institute and currently teaches a course on film and television producing at UCLA."
+			 ],
+			 "image": false
+		}, {
+			 "name": "GARY LENNON",
+			 "role": "EXECUTIVE PRODUCER, WRITER EPISODES 302 AND 308",
+			 "desc": [
+				  "Gary Lennon is an award-winning writer and producer who has worked in all aspects of the entertainment industry. He began his career in theater, writing the plays, &#8220;Blackout,&#8221; &#8220;Dates and Nuts,&#8221; &#8220;The Interlopers,&#8221; and &#8220;A Family Thing.&#8221; &#8220;The Interlopers&#8221; earned massive praise, received three Ovation and two NAACP nominations and was a LA Times Critics Pick. His other play, &#8220;A Family Thing,&#8221; was also a Los Angeles Critics Pick, earning six LA Weekly and two Los Angeles Critic&#8217;s Circle Nominations. Lennon made his directorial debut with the film .45, starring Milla Jovovich, which he wrote as well.",
+				  "He then transitioned to television where he has worked on many critically- acclaimed shows including &#8220;The Black Donnellys,&#8221; &#8220;The Unusuals,&#8221; &#8220;The Shield&#8221; and &#8220;Black Box.&#8221;",
+				  "He&#8217;s recently gained great success for producing &#8220;Justified&#8221; on FX, earning him a 2011 Peabody Award, 2011 Critic&#8217;s Choice Award Nomination, a 2011 WGA Award and an AFI Award Honoree for Television Program of the Year. Also, he was a Supervising Producer on the Netflix hit &#8220;Orange is the New Black,&#8221; which earned him a Producers Guild Award, a 2014 Peabody Award, a 2013 WGA Nomination and a 2014 Emmy Nomination for Outstanding Comedy Series."
+			 ],
+			 "image": false
+		}, {
+			 "name": "RANDY HUGGINS",
+			 "role": "CO-EXECUTIVE PRODUCER, WRITER EPISODE 303",
+			 "desc": [
+				  "Randy Huggins began his writing career on FX&#8217;s groundbreaking police drama, &#8220;The Shield,&#8221; as the show&#8217;s writers&#8217; assistant for four seasons. In 2006, Shawn Ryan, the series Showrunner, bought an idea from Huggins and gave him a story by credit for an episode entitled &#8220;Cut Throat.&#8221; That same year, he went with Ryan to work with David Mamet on &#8220;The Unit,&#8221; where Huggins was hired as a staff writer. He worked on the show for four years, wrote five episodes and assisted on countless of others while he was there. Huggins went on to become the Executive Story Editor on Starz&#8217;s first scripted drama, &#8220;Crash,&#8221; where he reunited with Glen Mazzara, his colleague from &#8220;The Shield,&#8221; who served as the series Showrunner. When that show ended, Huggins became a Co-Producer on NBC&#8217;s medical drama, &#8220;Trauma.&#8221; In 2010, Huggins served as a Producer on &#8220;Criminal Minds&#8221; and wrote three episodes before returning to NBC as the Supervising Producer on their cop drama, &#8220;Prime Suspect.&#8221;",
+				  "Born and raised in Detroit, Huggins graduated from St. Martin DePorres High School and later received his B.A. in History from Grambling State University. He taught third and fifth grade in the Detroit public school system prior to relocating to Los Angeles, where he currently lives."
+			 ],
+			 "image": false
+		}, {
+			 "name": "HEATHER ZUHLKE",
+			 "role": "SUPERVISING PRODUCER, WRITER, EPISODE 304",
+			 "desc": [
+				  "Previous to her work on &#8220;Power,&#8221; Heather Zuhlke wrote on all five seasons of TNT&#8217;s critically-acclaimed &#8220;Southland,&#8221; sharing in the cop drama&#8217;s 2012 Peabody Award and winning a 2012 Prism Award for her writing on the show. Zuhlke&#8217;s other television credits include &#8220;Stalker,&#8221; &#8220;Killer Women,&#8221; &#8220;Kaya,&#8221; &#8220;Smith,&#8221; and &#8220;The Evidence.&#8221; She is a 2005 alumni of the Warner Bros. Writer&#8217;s Workshop and started her career as the Executive Assistant to Emmy-winning producer, John Wells. Zuhlke graduated with a B.A. in Communications from California State University, Fullerton."
+			 ],
+			 "image": false
+		}, {
+			 "name": "RAPHAEL JACKSON, JR",
+			 "role": "PRODUCER/WRITER, 305, 309",
+			 "desc": [
+				  "The second oldest in a family of seven, Raphael Jackson Jr. was born and raised in metro Detroit. Jackson is a University of Michigan graduate who studied extensively in film production. After graduating, he decided to move to Los Angeles where he gained valuable experience working on shows ranging from &#8220;Criminal Minds,&#8221; to &#8220;All of Us.&#8221;",
+				  "In addition to writing on &#8220;Power&#8221; for Season One, Two and Three, Jackson also served as a writer on the critically-acclaimed Starz comedy, &#8220;Survivor&#8217;s Remorse,&#8221; the AMC drama &#8220;Low Winter Sun&#8221; and the NBC drama &#8220;Crossbones,&#8221; created by Neil Cross, the Emmy-nominated creator of &#8220;Luther.&#8221;"
+			 ],
+			 "image": false
+		}, {
+			 "name": "DAMIONE MACEDON",
+			 "role": "PRODUCER/WRITER, 305, 309",
+			 "desc": [
+				  "Damione Macedon was born in San Francisco and has lived in Phoenix, AZ as well as Reno, NV. While in Reno, his father introduced him to writing through an extensive film collection he had amassed over the years. Macedon graduated from California State University of Northridge with a degree in History. Prior to joining &#8220;Power,&#8221; he wrote for AMC&#8217;s &#8220;Low Winter Sun,&#8221; the NBC drama &#8220;Crossbones,&#8221; and the Starz comedy, &#8220;Survivors Remorse.&#8221; Macedon has been a member of the &#8220;Power&#8221; writing staff for all three seasons."
+			 ],
+			 "image": false
+		}, {
+			 "name": "VLADIMIR CVETKO",
+			 "role": "EXECUTIVE STORY EDITOR; WRITER EPISODE 306",
+			 "desc": [
+				  "Vladimir Cvetko immigrated to California from the former Yugoslavia. He started his career in television, working on shows such as, &#8220;My Own Worst Enemy&#8221; (NBC) and &#8220;Outlaw,&#8221; (NBC) before landing his first writing assignment for &#8220;Once Upon A Time&#8221; (ABC). In addition to &#8220;Power,&#8221; he currently writes for &#8220;Kingdom&#8221; (DirecTV). He holds a B.A. in English Literature from CSU Chico and received his M.F.A. in Screenwriting from the University of Southern California."
+			 ],
+			 "image": false
+		}, {
+			 "name": "SAFIA M. DIRIE",
+			 "role": "STORY EDITOR, WRITER EPISODE 307",
+			 "desc": [
+				  "Safia M. Dirie moved to Los Angeles directly after finishing her education to pursue television writing. She received countless hours of experience working for various film and television production companies before landing on &#8220;Power.&#8221; Season Three marks her second season on the show.",
+				  "Dirie holds a B.A. from The University of Tennessee, Knoxville in English Literature and received her M.F.A. in Film Production from Florida State University. She lives in Los Angeles."
+			 ],
+			 "image": false
+		}, {
+			 "name": "JEFF DIX",
+			 "role": "STAFF WRITER, WRITER 310",
+			 "desc": [
+				  "A native South Dakotan, Jeff Dix studied writing for film and television at Minnesota State University Moorhead, in addition to UCLA. Early in his television career, Dix worked on such hit shows as &#8220;The Big Bang Theory&#8221; (CBS), &#8220;Mike & Molly&#8221; (CBS), and &#8220;Beauty And The Beast&#8221; (The CW). He has been with &#8220;Power&#8221; since its inception: first, as an assistant, before becoming a member of the writing staff."
+			 ],
+			 "image": false
+		}, {
+			 "name": "TIM CHRISTENSON",
+			 "role": "PRODUCER/WRITER, 305, 309",
+			 "desc": [
+				  "Tim Christenson recently served as Co-Producer on the HBO/Duplass Brothers comedy &#8220;Togetherness,&#8221; as well as on the highly praised HBO series &#8220;How to Make It in America&#8221; alongside Stephen Levinson, Mark Wahlberg, Julian Farino and Ian Edelman. He also teamed with Wahlberg and Levinson on the multi-award-winning HBO drama series, &#8220;In Treatment,&#8221; which ran for three incredible and critically-acclaimed seasons.",
+				  "Christenson&#8217;s early work includes a Co-Producer role on the 2008 adaptation of <i>A Raisin in the Sun</i>, his third collaboration with Craig Zadan and Neil Meron. His sophomore collaboration with Zadan and Meron was as a co-producer on the 2006 Sony Television and A&E made for TV comedy <i>Wedding Wars</i>, and he also co-produced the 2006 NBC comedy series &#8220;The Book of Daniel.&#8221;",
+				  "Christenson served as an Associate Producer on the made for TV movies <i>Jesse Stone: Death in Paradise</i> and <i>Jesse Stone: Stone Cold</i>, and A&E&#8217;s Emmy-nominated <i>Ike: Countdown to D-Day</i>, FOX&#8217;s &#8220;The Tick,&#8221; The WB&#8217;s &#8220;Young Americans,&#8221; and the feature films <i>Who Do You Love</i>, <i>Looking for an Echo</i> and <i>The Gingerbread Man</i>.",
+				  "Christenson makes his home in Kansas City, MO with his wife Kathy while working out of New York and Los Angeles throughout the year."
+			 ],
+			 "image": false
+		}, {
+			 "name": "HERN&#193;N OTA&#209;O",
+			 "role": "DIRECTOR OF PHOTOGRAPHY, EPISODES 301, 303, 305, 307, 309",
+			 "desc": [
+				  "Hern&#225;n Michael Ota&#241;o is a Director of Photography based out of New York City. The first American-born son of Argentine parents, he has worked his way up through the camera ranks. He started off as a film loader and then graduated to focus, pulling for cinematographers such as Harris Savides, Darius Khondji, Russell Carpenter and Dariusz Wolski. These years were priceless experiences to him; working alongside some of the most innovative cinematographers of the time.",
+				  "He got his first big break in 2001 shooting a narrative short film directed by Dave Silver called <i>Gasline</i>. This short film went on to win the Jury selection prize for Best Short Film at Sundance 2002. In 2004, the two collaborated again on the feature-length film <i>Corn</i>. Ota&#241;o&#8217;s next career highlight came in 2007 as Director of Photography for the feature film <i>Turn the River</i>; written and directed by Chris Eigeman. This film was well received and was nominated for an IFC SPIRIT award in 2007. Independent film continued to shape his career nurturing both a collaborative nature and applied visual style.",
+				  "Ota&#241;o made the transition to larger scale projects and studio films with a spate of camera operator duties on films such as <i>Limitless</i>, <i>Man on a Ledge</i> and others films, all the while taking on Second Unit and additional Director of Photography work on movies such as Gregg Araki&#8217;s <i>Mysterious Skin</i>, stunt work on <i>The Stepfather</i> and recently shooting the dream sequences for James Gray&#8217;s film <i>The Immigrant</i>. He also found a place behind the lens as a camera operator on multiple award-winning television shows such as &#8220;30 Rock&#8221; and &#8220;Girls.&#8221; Ota&#241;o shot episode five on Season One of &#8220;Girls&#8221; and was the Tandem DP on season one of the FX show &#8220;The Americans.&#8221;",
+				  "Season Three of &#8220;Power&#8221; was Otano&#8217;s second season as DP for the hit series. Over his hiatus from &#8220;Power,&#8221; he worked on two episodes (including the season finale) of WGN&#8217;s new hit series, &#8220;Underground.&#8221;"
+			 ],
+			 "image": false
+		}]
+	},{
+		"name": "Cast",
+		"class": "cast",
+		"link": "cast",
+		"menu": true,
+		"maincontent": "CastBio",
+		"video": false,
+		"loop": true,
+		"background": "images/backgrounds/angelaghost.jpg",
+		"content": [{
+			 "name": "OMARI HARDWICK",
+			 "role": "(James &#8216;Ghost&#8217; St. Patrick)",
+			 "desc": [
+				  "Lorem Ipsum"
+			 ],
+			 "image": "images/cast/hardwick.jpg"
+		}, {
+			 "name": "LELA LOREN",
+			 "role": "(Angela Valdes)",
+			 "desc": [
+ 				 "Lorem Ipsum"
+ 			],
+ 			"image": "images/cast/loren.jpg"
+		}, {
+			 "name": "NATURI NAUGHTON",
+			 "role": "(Tasha St. Patrick)",
+			 "desc": [
+				  "Lorem Ipsum"
+			 ],
+			 "image": "images/cast/naughton.jpg"
+		}, {
+			 "name": "JOSEPH SIKORA",
+			 "role": "(Tommy Egan)",
+			 "desc": [
+				  "Lorem Ipsum"
+			 ],
+			 "image": "images/cast/naughton.jpg"
+		}, {
+			  "name": "ROTIMI AKINOSHO",
+			  "role": "(Dre)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/akinosho.jpg"
+		}, {
+			  "name": "ANDY BEAN",
+			  "role": "(Greg Knox)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/bean.jpg"
+		}, {
+			  "name": "JERRY FERRARA",
+			  "role": "(Joe Proctor)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/ferrara.jpg"
+		}, {
+			  "name": "DAVID FUMERO",
+			  "role": "(Mike Sandoval)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/fumero.jpg"
+		}, {
+			  "name": "SHANE JOHNSON",
+			  "role": "(Cooper Saxe)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/johnson.jpg"
+	  }, {
+			  "name": "CALLAN MULVEY",
+			  "role": "(Dean)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/mulvey.jpg"
+		}, {
+			  "name": "MICHAEL RAINEY, JR.",
+			  "role": "(Tariq St. Patrick)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/rainey.jpg"
+		}, {
+			  "name": "J.R. RAMIREZ",
+			  "role": "(Julio)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/ramirez.jpg"
+		}, {
+			  "name": "LUIS ANTONIO RAMOS",
+			  "role": "(Carlos &#8216;Vibora&#8217; Ruiz)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/ramos.jpg"
+		}, {
+			  "name": "LUCY WALTERS",
+			  "role": "(Holly)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/walters.jpg"
+		}, {
+			  "name": "DONSHEA HOPKINS",
+			  "role": "(Raina St. Patrick)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/hopkins.jpg"
+		}, {
+			  "name": "ALANI &#8216;LA LA&#8217; ANTHONY",
+			  "role": "(LaKeisha Graham)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/anthony.jpg"
+		}, {
+			  "name": "ENRIQUE MURCIANO",
+			  "role": "(Felipe Lobos)",
+			  "desc": [
+				   "Lorem Ipsum"
+			  ],
+			  "image": "images/cast/murciano.jpg"
+		}]
+	},{
+		"name": "Videos",
+		"class": "videos",
+		"link": "videos",
+		"menu": true,
+		"maincontent": "Videos",
+		"video": false,
+		"loop": true,
+		"background": "black",
+		"content": [{
+			 "name": "First Look",
+			 "path": "https://www.starz.com/videos/embed/030aac582c4e46d39acfe8519268d36c?footer=false&cid=pws3pcs3firstlook",
+			 "image": "images/video/firstlook.jpg"
+		}, {
+			 "name": "Hero Trailer",
+			 "path": "https://www.starz.com/videos/embed/b96ba5c5b6344e01ad2a7f6c4da825c0?footer=false&cid=pws3pcs3hero",
+			 "image": "images/video/herotrailer.jpg"
+		}, {
+			 "name": "Season 2 Recap",
+			 "path": "https://www.starz.com/videos/embed/7d439862f85a45378f128bbd3481e5f0?footer=false&cid=pws3pcs2recap",
+			 "image": "images/video/recap.jpg"
+		}]
+	},{
+		"name": "Screening Room",
+		"class": "screeningroom",
+		"link": "https://microsites.starz.com/ScreeningRoom/Account/Login",
+		"menu": true,
+		"external": true
+	},{
+		"name": "Press Materials",
+		"class": "pressmaterials",
+		"link": "pressmaterials",
+		"menu": true,
+		"maincontent": "PressMaterials",
+		"video": false,
+		"loop": true,
+		"background": "images/backgrounds/tashatommyholly.jpg",
+		"content": [{
+			 "name": "High Resolution<br />Assets",
+			 "icon": "fa-camera-o",
+			 "class": "assets",
+			 "links": [{
+				  "name": "Visit Starz Media Room to Download High Resolution Images and Videos",
+				  "link": "http://starz.mediaroom.com/index.php?s=64&cat=87"
+			 }]
+		}, {
+			 "name": "Press PDF<br />Downloads",
+			 "icon": "fa-file-pdf-o",
+			 "class": "download",
+			 "links": [{
+				  "name": "Series Synopsis",
+				  "link": "pdfs/pws3_seriessynopsis.pdf"
+			 }, {
+				  "name": "Episode Descriptions",
+				  "link": "pdfs/pws3_episodedescriptions.pdf"
+			 }, {
+				  "name": "Character Descriptions",
+				  "link": "pdfs/pws3_characterdescriptions.pdf"
+			 }, {
+				  "name": "Cast Credits",
+				  "link": "pdfs/pws3_castcredits.pdf"
+			 }, {
+				  "name": "Cast Biographies",
+				  "link": "pdfs/pws3_castbiographies.pdf"
+			 }, {
+				  "name": "Production Notes",
+				  "link": "pdfs/pws3_productionnotes.pdf"
+			 }, {
+				  "name": "Production Credits",
+				  "link": "pdfs/pws3_productioncredits.pdf"
+			 }, {
+				  "name": "Production Biographies",
+				  "link": "pdfs/pws3_productionbiographies.pdf"
+			 }]
+		}, {
+			 "name": "Press<br />Contacts",
+			 "class": "contact",
+			 "icon": "fa-envelope-o",
+			 "links": [{
+				  "name": "<span>Nyle Washington</span>Starz Entertainment, LLC.<br />(212) 905-4287<br />nyle.washington@starz.com",
+				  "link": "mailto:nyle.washington@starz.com?Subject=Black Sails Season 4 Press Kit"
+			 }, {
+				  "name": "<span>Collen Curtis</span>Starz Entertainment, LLC.<br />(212) 905-4230<br />colleen.curtis@starz.com",
+				  "link": "mailto:colleen.curtis@starz.com?Subject=Black Sails Season 4 Press Kit"
+			 }]
+		}]
+	}]
+}

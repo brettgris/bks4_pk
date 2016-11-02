@@ -1,0 +1,102 @@
+.story{
+	.main-column{
+		@include display-flex;
+		@include align-items(center);
+		padding: 0px 30px;
+
+		.main{
+			padding-top: $story-slide-height;
+			position:relative;
+			width: 100%;
+
+
+			.slide{
+				width: 100%;
+				position:absolute;
+				top:0;
+				left: 0%;
+				padding-top: $story-slide-height;
+				background-repeat: no-repeat;
+				background-color: black;
+				background-position: center center;
+				background-size: cover;
+				@include box-shadow( 0 0 30px rgba(0,0,0,.5) );
+
+				@include transition-property(left);
+				@include transition-duration(5s);
+				@include transition-timing-function(ease-in);
+			}
+
+			.title{
+				width: 100%;
+				margin-top: 10px;
+
+				a{
+					@include box-shadow( 0 0 20px rgba(0,0,0,.5) );
+				}
+			}
+
+			&.forward{
+				.slide{
+					&.slider-enter {
+						left: 100%;
+						@include opacity(.01);
+					}
+
+					&.slider-enter.slider-enter-active {
+						left: 0%;
+						@include opacity(1);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+
+					&.slider-leave {
+						left: 0%;
+						@include opacity(1);
+					}
+
+					&.slider-leave.slider-leave-active {
+						left:-100%;
+						@include opacity(.01);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+				}
+			}
+
+			&.backward{
+				.slide{
+					&.slider-enter {
+						left: -100%;
+						@include opacity(.01);
+					}
+
+					&.slider-enter.slider-enter-active {
+						left: 0%;
+						@include opacity(1);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+
+					&.slider-leave {
+						left: 0%;
+						@include opacity(1);
+					}
+
+					&.slider-leave.slider-leave-active {
+						left:100%;
+						@include opacity(.01);
+						@include transition-property(all);
+						@include transition-duration(.25s);
+						@include transition-timing-function(ease-in);
+					}
+				}
+			}
+		}
+	}
+
+
+}
