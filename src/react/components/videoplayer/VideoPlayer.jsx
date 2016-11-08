@@ -11,14 +11,43 @@ class VideoPlayer extends Component{
 		this.path = null;
 		this.loadVideo = this.loadVideo.bind(this);
 		this.videoDone = this.videoDone.bind(this);
+
+		this.state = {
+			mobile: null
+		}
+		this.handleResize = this.handleResize.bind(this);
+	}
+
+	handleResize(){
+		let w = $('.main-column').width();
+
+		if (w<770&&this.state.mobile!==true){
+			console.log("smaller");
+			var v = $('.main-column').data('vide');
+			if (v) v.destroy();
+
+			console.log(v);
+			this.setState({
+				mobile: true
+			});
+		} else if (w>770&&this.state.mobile!==false){
+			this.setState({
+				mobile: false
+			});
+		}
 	}
 
 	componentDidMount(){
-		this.loadVideo();
+		window.addEventListener("resize",this.handleResize);
+		this.handleResize();
+	}
+
+	componentWillUnmount(){
+		window.removeEventListener("resize",this.handleResize);
 	}
 
 	componentDidUpdate(){
-		if( this.props.video['video']!=false&&this.props.video['video']!=this.path ) this.loadVideo();
+		if( this.props.video['video']!=false&&this.props.video['video']!=this.path&&this.state.mobile===false ) this.loadVideo();
 		else {
 			if (this.props.video['video']!==this.path){
 				this.path = null;
@@ -29,9 +58,10 @@ class VideoPlayer extends Component{
 	}
 
 	loadVideo(){
+		console.log("video")
 		var touchevents = Modernizr.touchevents;
 
-		if (this.props.video.video&&!touchevents) {
+		if (this.props.video.video&&!touchevents&&!this.state.mobile) {
 			if (this.video) this.video.pause();
 		 	this.path = this.props.video.video;
 
@@ -59,7 +89,7 @@ class VideoPlayer extends Component{
 	render(){
 		var touchevents = Modernizr.touchevents;
 
-		if (!this.props.video.video||touchevents) {
+		if (!this.props.video.video||touchevents||this.state.mobile) {
 			var style = {
 				"backgroundImage": `url(${this.props.video.background})`
 			};

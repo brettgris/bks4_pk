@@ -96,10 +96,16 @@ html{
 $graphic-width: 50px;
 $graphic-height: $graphic-width * (55/80);
 
-.graphic{
+.adjust{
 	@include flex-grow(1);
+	height: $graphic-height;
+	min-width: 20px;
+}
+
+.graphic{
 	text-align: center;
 	height: $graphic-height;
+	width: $graphic-width*2 !important;
 
 	&.right{
 		text-align: right;
@@ -112,16 +118,16 @@ $graphic-height: $graphic-width * (55/80);
 	.x-graphic{
 		display: inline-block;
 		margin-right: 0px;
+		width: 50%;
 
 		&:last-child{
 			margin-right: 0;
 		}
 
 		span{
-			background: url(#{$imgPath}x_sprite.png);
 			background-size: cover;
 			display: block;
-			width: $graphic-width;
+			width: $graphic-width !important;
 			height: $graphic-height;
 		}
 	}

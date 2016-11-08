@@ -12,14 +12,14 @@ class XGraphic extends Component{
 
 	componentDidMount(){
 		this.setState({
-			number: Math.floor( Math.random()*60 )
+			number: Math.ceil( Math.random()*15 )
 		});
 	}
 
 	render(){
 		const position = this.state.number*this.state.width;
 		const style={
-			backgroundPosition: `-${position}px 0`
+			backgroundImage: `url(images/x/${this.state.number}.png)`
 		}
 
 		return(

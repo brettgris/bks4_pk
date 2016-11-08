@@ -125,10 +125,12 @@
 				width: 100%;
 				height: 100%;
 
+
 				.slide{
 					height: 100%;
 					@include display-flex;
 					@include align-items(flex-end);
+
 
 					&.full{
 						@include align-items(center);
@@ -138,7 +140,43 @@
 
 					.copy{
 						width: 100%;
-						margin-bottom: 15px;
+						height: 100%;
+
+
+						.title{
+							height: 100%;
+						}
+
+						.name{
+							height: 100%;
+							@include display-flex;
+							@include align-items(flex-end);
+
+							div{
+								@include flex-grow(1);
+
+								img{
+									margin: auto;
+									visibility: hidden;
+								}
+							}
+						}
+					}
+				}
+
+				&.touch{
+					@include background-image(linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,.75) 95%));
+					
+					.slide{
+						.copy{
+							.name{
+								div{
+									img{
+										visibility: visible;
+									}
+								}
+							}
+						}
 					}
 				}
 			}

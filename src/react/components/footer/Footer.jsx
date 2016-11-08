@@ -20,7 +20,7 @@ class Footer extends Component {
 				<div className="copyright">
 					<p>{this.props.footer.copyright}</p>
 				</div>
-				<div className="social">
+				<div className="social hidden-xs">
 					{this.createSocialItems()}
 				</div>
 			</footer>

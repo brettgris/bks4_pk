@@ -7,10 +7,13 @@ export default class Synopsis extends Component {
 				<div className="content">
 					<div className="copy">
 						<div className="title-art">
-							<img src={this.props.data.titleart} className="img img-responsive"/>
+							<img src={this.props.data[0].titleart} className="img img-responsive"/>
+						</div>
+						<div className="key-art visible-xs">
+							<img src={this.props.data[0].keyart} className="img img-responsive"/>
 						</div>
 						<div className="tag-line">
-							<img src={this.props.data.tagline} className="img img-responsive"/>
+							<img src={this.props.data[0].tagline} className="img img-responsive"/>
 						</div>
 						{this.createSynopsis()}
 					</div>
@@ -21,7 +24,7 @@ export default class Synopsis extends Component {
 	}
 
 	createSynopsis(){
-		return this.props.data.synopsis.map(function(item,key){
+		return this.props.data[0].synopsis.map(function(item,key){
 			return (
 				<p key={"synopsis"+key} dangerouslySetInnerHTML={{ __html:item}}></p>
 			)

@@ -89,7 +89,7 @@ class BasePage extends Component {
 	render(){
 		if (!this.props.section) return null;
 
-		var Main = (Templates[this.props.section.maincontent]) ? Templates[this.props.section.maincontent]: "div";
+		var Main = (Templates[this.props.section.maincontent]&&this.props.section.content[this.state.current]) ? Templates[this.props.section.maincontent]: "div";
 
 		return (
 			<div className={"wrapper "+this.props.section.class}>

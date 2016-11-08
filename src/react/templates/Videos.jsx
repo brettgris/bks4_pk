@@ -3,6 +3,27 @@ import React, {Component} from 'react';
 import XGraphic from '../components/x/XGraphic.jsx';
 
 export default class Videos extends Component {
+	constructor(props){
+		super(props);
+
+		this.state = {
+			width: 640,
+			height: 640 * (9/16)
+		};
+
+		this.handleResize = this.handleResize.bind(this);
+	}
+
+	componentDidMount(){
+		window.addEventListener("resize", this.handleResize);
+		this.handleResize();
+	}
+
+	componentWillUnmount(){
+		window.removeEventListener("resize", this.handleResize);
+	}
+
+
 	handleClick(n){
 		var c = this.props.current+n;
 		if (c<0) c = this.props.data.length-1;
@@ -10,17 +31,37 @@ export default class Videos extends Component {
 
 		var direction = (n>0) ? "forward" : "backward";
 
-		console.log(n);
 		this.props.changeItem(c, direction);
+	}
+
+	handleResize(){
+		let w = this.refs.player.offsetWidth;
+		let h = this.refs.player.offsetHeight;
+
+		let r = w/h;
+		const vr = 16/9;
+
+		if (r<vr){
+			this.setState({
+				width: w,
+				height: w / vr
+			});
+		} else {
+			this.setState({
+				height: h,
+				width: h * vr
+			});
+		}
 	}
 
 	render(){
 		return(
 			<div className="main">
 				{ this.handleVisible() }
-				<div className="player">
+				<div className="player" ref="player">
+					{ this.renderCurrentEmbed() }
 				</div>
-				<div className="arrows col-sm-8 col-sm-offset-2">
+				<div className="arrows full">
 					<div className="title">
 						<a className="previous" onClick={()=>this.handleClick(-1)}>
 							<i className="fa fa-long-arrow-left"></i>
@@ -35,12 +76,27 @@ export default class Videos extends Component {
 		)
 	}
 
+	renderCurrentEmbed(){
+		const path = this.props.data[this.props.current].path;
+		if (path){
+			let style = {
+				width: this.state.width,
+				height: this.state.height
+			}
+			return (
+				<div style={style}>
+					<iframe width="100%" height="100%" src={path} frameBorder="0" scrolling="no"></iframe>
+				</div>
+			);
+		}
+	}
+
 	handleVisible(){
 		if (this.props.data.length<2) return null;
 
 		if ( this.props.thumbs ){
 			return (
-				<div className="thumbs">
+				<div className="thumbs hidden-xs">
 					<ul onClick={()=>this.props.handleThumbs(false)}>
 						{ this.createThumbItems() }
 					</ul>
@@ -76,12 +132,12 @@ export default class Videos extends Component {
 			return (
 				<li style={style} onClick={()=>this.props.changeItem(i)}>
 					<div className="menu-container">
-						<div className="graphic">
+						<div className="graphic hidden-xs">
 							<XGraphic />
 							<XGraphic />
 						</div>
 						<h3>{data.name}</h3>
-						<div className="graphic">
+						<div className="graphic hidden-xs">
 							<XGraphic />
 							<XGraphic />
 						</div>

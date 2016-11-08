@@ -17,12 +17,13 @@ export default class CharacterBio extends Component {
 	render(){
 		const bio = this.props.data[this.props.current];
 		if (!bio) return null;
+		let touch = (Modernizr.touchevents) ? " touch" : "";
 
 		return(
 
 			<div className={"main "+this.props.direction}>
 				{ this.handleVisible() }
-				<div className="slides">
+				<div className={"slides"+touch}>
 					{ this.createSlide(bio) }
 				</div>
 			</div>
@@ -34,7 +35,7 @@ export default class CharacterBio extends Component {
 
 		if ( this.props.thumbs ){
 			return (
-				<div className="thumbs">
+				<div className="thumbs hidden-xs">
 					<ul onClick={()=>this.props.handleThumbs(false)}>
 						{ this.createThumbsItems() }
 					</ul>
@@ -67,14 +68,12 @@ export default class CharacterBio extends Component {
 			return (
 				<li onClick={()=>this.props.changeItem(i)}>
 					<div>
-						<div className="graphic">
-							<XGraphic />
+						<div className="graphic hidden-xs hidden-sm">
 							<XGraphic />
 							<XGraphic />
 						</div>
 						<h2 dangerouslySetInnerHTML={{__html: data.name}}></h2>
-						<div className="graphic">
-							<XGraphic />
+						<div className="graphic hidden-xs hidden-sm">
 							<XGraphic />
 							<XGraphic />
 						</div>
@@ -84,27 +83,9 @@ export default class CharacterBio extends Component {
 		});
 	}
 
-	// <div className="graphic">
-	// 	<XGraphic />
-	// 	<XGraphic />
-	// 	<XGraphic />
-	// </div>
-	// <div className="name">
-	// 	<h2 className="uppercase center" dangerouslySetInnerHTML={{ __html:bio.name}}></h2>
-	// 	<h4 className="actor uppercase center" dangerouslySetInnerHTML={{ __html:bio.actor}}></h4>
-	// </div>
-	// <div className="graphic">
-	// 	<XGraphic />
-	// 	<XGraphic />
-	// 	<XGraphic />
-	// </div>
-
-	//<ReactCSSTransitionGroup transitionName="slider" transitionEnterTimeout={500} transitionLeaveTimeout={500}>
-	//</ReactCSSTransitionGroup>
-
-	//col-sm-8 col-sm-offset-2
-
 	createSlide(bio){
+
+
 		return (
 
 				<div className="slide full" key={bio.name}>
@@ -113,7 +94,12 @@ export default class CharacterBio extends Component {
 							<a className="previous" onClick={()=>this.handleClick(-1)}>
 								<i className="fa fa-long-arrow-left"></i>
 							</a>
-							<div className="name"></div>
+							<div className="name">
+								<div>
+									<img src={"images/characters/name/"+bio.safename+".png"} className="img img-responsive"/>
+									<img src={"images/characters/quote/"+bio.safename+".png"} className="img img-responsive"/>
+								</div>
+							</div>
 							<a className="next" onClick={()=>this.handleClick(1)}>
 								<i className="fa fa-long-arrow-right"></i>
 							</a>

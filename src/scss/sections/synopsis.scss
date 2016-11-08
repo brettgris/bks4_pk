@@ -1,9 +1,21 @@
 .synopsis{
 	.main-column {
+		.background{
+			@media #{$x-small}{
+				display: none;
+			}
+		}
+
 		.main{
 			width: 100%;
 			height: 100%;
 			position: absolute;
+
+			@media #{$x-small}{
+				height: auto;
+				position: relative;
+				padding-top: 30px;
+			}
 
 			.content{
 				width: $synopsis-width;
@@ -12,6 +24,10 @@
 				@include display-flex;
 				@include align-items(center);
 				@include justify-content(center);
+
+				@media #{$x-small}{
+					width: 100%;
+				}
 
 				.copy{
 					width: $synopsis-width-copy;
@@ -24,6 +40,12 @@
 					.tag-line{
 						width: $synopsis-tag-line-width;
 						margin: $synopsis-tag-line-margin;
+
+						@media #{$x-small}{
+							width: 100%;
+							margin-left: auto;
+							margin-right: auto;
+						}
 					}
 
 					p{

@@ -144,16 +144,39 @@
 				position: absolute;
 				top: 0;
 				left: 0;
+
+				@include display-flex;
+				@include align-items(center);
+				@include justify-content(center);
+
+				div{
+					position: relative;
+
+					iframe{
+						position: absolute;
+						top: 0;
+					}
+				}
+
 			}
 
 			.arrows{
 				height: 100%;
+				pointer-events: none;
+				@include display-flex;
+				z-index: 1;
 				position: relative;
-				padding: 0;
+
+				&.full{
+					@include align-items(center);
+					width: 97%;
+					margin: auto;
+				}
 
 				.title{
-					bottom: $video-arrow-bottom;
-					position: absolute;
+					a{
+						pointer-events: auto;
+					}
 				}
 			}
 		}

@@ -155,6 +155,11 @@
 						padding-bottom: 30px;
 					}
 
+					@media #{$x-small}{
+						width: 90%;
+						margin: auto;
+					}
+
 					.image{
 						max-width: $cast-image-width;
 						overflow: hidden;

@@ -2,6 +2,7 @@
 	height: $footer-height;
 	width: 100%;
 	background: $footer-background;
+	overflow: hidden;
 
 	@include display-flex;
 	@include flex-direction(row);

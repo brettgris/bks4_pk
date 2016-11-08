@@ -34,7 +34,7 @@ export default class CastBio extends Component {
 
 		if ( this.props.thumbs ){
 			return (
-				<div className="thumbs">
+				<div className="thumbs hidden-xs">
 					<ul onClick={()=>this.props.handleThumbs(false)}>
 						{ this.createThumbsItems() }
 					</ul>
@@ -67,8 +67,7 @@ export default class CastBio extends Component {
 			return (
 				<li onClick={()=>this.props.changeItem(i)}>
 				<div className="menu-container">
-					<div className="graphic">
-						<XGraphic />
+					<div className="graphic hidden-xs hidden-sm">
 						<XGraphic />
 						<XGraphic />
 					</div>
@@ -76,8 +75,7 @@ export default class CastBio extends Component {
 						<h2 dangerouslySetInnerHTML={{__html: data.name}}></h2>
 						<h5 dangerouslySetInnerHTML={{__html: data.role}}></h5>
 					</div>
-					<div className="graphic">
-						<XGraphic />
+					<div className="graphic hidden-xs hidden-sm">
 						<XGraphic />
 						<XGraphic />
 					</div>
@@ -98,8 +96,8 @@ export default class CastBio extends Component {
 							<a className="previous" onClick={()=>this.handleClick(-1)}>
 								<i className="fa fa-long-arrow-left"></i>
 							</a>
-							<div className="graphic right">
-								<XGraphic />
+							<div className="adjust"></div>
+							<div className="graphic right hidden-xs hidden-sm">
 								<XGraphic />
 								<XGraphic />
 							</div>
@@ -107,11 +105,11 @@ export default class CastBio extends Component {
 								<h2 className="uppercase center" dangerouslySetInnerHTML={{ __html:bio.name}}></h2>
 								<h4 className="role center uppercase italic" dangerouslySetInnerHTML={{ __html:bio.role}}></h4>
 							</div>
-							<div className="graphic left">
-								<XGraphic />
+							<div className="graphic left hidden-xs hidden-sm">
 								<XGraphic />
 								<XGraphic />
 							</div>
+							<div className="adjust"></div>
 							<a className="next" onClick={()=>this.handleClick(1)}>
 								<i className="fa fa-long-arrow-right"></i>
 							</a>

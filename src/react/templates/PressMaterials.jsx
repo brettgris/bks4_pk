@@ -12,6 +12,8 @@ export default class PressMaterials extends Component {
 	}
 
 	createSections(){
+		let touch = (Modernizr.touchevents) ? " touch" : "";
+
 		return this.props.data.map( (data,i)=>{
 			return (
 				<li className="section">
@@ -20,7 +22,7 @@ export default class PressMaterials extends Component {
 							<h2><i className={"fa "+data.icon}></i></h2>
 							<h1 dangerouslySetInnerHTML={{__html:data.name}}></h1>
 						</div>
-						<div className="press-links">
+						<div className={"press-links"+touch}>
 							{ this.createLinks(data.links,data.class) }
 						</div>
 					</div>
