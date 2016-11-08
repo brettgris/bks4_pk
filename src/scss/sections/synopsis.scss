@@ -21,9 +21,9 @@
 				width: $synopsis-width;
 				height: 100%;
 
-				@include display-flex;
-				@include align-items(center);
-				@include justify-content(center);
+				@include my-flex;
+				@include my-align-items(center,center);
+				@include my-justify-content(center,center);
 
 				@media #{$x-small}{
 					width: 100%;

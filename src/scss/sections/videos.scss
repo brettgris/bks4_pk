@@ -9,8 +9,8 @@
 				position: absolute;
 				z-index: $videos-thumbs-z;
 				width: 100%;
-				@include display-flex;
-				@include justify-content(center);
+				@include my-flex;
+				@include my-justify-content(center,center);
 
 				ul{
 					margin: $videos-thumbs-margin;
@@ -45,21 +45,21 @@
 				border-top: $video-menu-item-border;
 				border-bottom: $video-menu-item-border;
 
-				@include display-flex;
-				@include flex-direction(column);
+				@include my-flex;
+				@include my-flex-direction(column);
 
 				ul{
-					@include flex-grow(1);
+					@include my-flex-grow(1);
 					margin: 0;
 					height: 100%;
-					@include display-flex;
-					@include align-items(center);
+					@include my-flex;
+					@include my-align-items(center,center);
 					position: relative;
 
 					li{
 						list-style: none;
 						//display: block;
-						@include flex-grow(1);
+						@include my-flex-grow(1);
 						height: 100%;
 						text-align: center;
 						border-right: $video-menu-item-border;
@@ -94,9 +94,9 @@
 							width: 100%;
 							height: 100%;
 
-							@include display-flex;
-							@include align-items(center);
-							@include justify-content(center);
+							@include my-flex;
+							@include my-align-items(center,center);
+							@include my-justify-content(center,center);
 
 							.graphic{
 								@include opacity(.01);
@@ -116,7 +116,7 @@
 						}
 
 						&:hover{
-							@include flex-grow($video-menu-item-grow);
+							@include my-flex-grow($video-menu-item-grow);
 
 							&::before{
 								@include opacity(.01);
@@ -145,9 +145,9 @@
 				top: 0;
 				left: 0;
 
-				@include display-flex;
-				@include align-items(center);
-				@include justify-content(center);
+				@include my-flex;
+				@include my-align-items(center,center);
+				@include my-justify-content(center,center);
 
 				div{
 					position: relative;
@@ -163,12 +163,12 @@
 			.arrows{
 				height: 100%;
 				pointer-events: none;
-				@include display-flex;
+				@include my-flex;
 				z-index: 1;
 				position: relative;
 
 				&.full{
-					@include align-items(center);
+					@include my-align-items(center,center);
 					width: 97%;
 					margin: auto;
 				}

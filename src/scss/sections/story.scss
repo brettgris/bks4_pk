@@ -1,7 +1,7 @@
 .story{
 	.main-column{
-		@include display-flex;
-		@include align-items(center);
+		@include my-flex;
+		@include my-align-items(center,center);
 		padding: 0px 30px;
 
 		.main{

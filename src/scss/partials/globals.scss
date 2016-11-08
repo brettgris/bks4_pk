@@ -19,11 +19,12 @@ html{
 
 	.wrapper{
 		height: 100%;
-		@include display-flex;
-		@include flex-direction(column);
+		@include my-flex;
+		@include my-flex-direction(column);
+
 
 		.main-column{
-			@include flex-grow(1);
+			@include my-flex-grow(1);
 			position: relative;
 			overflow-y: auto;
 			overflow-x: hidden;
@@ -49,11 +50,11 @@ html{
 
 .title{
 	width: 100%;
-	@include display-flex;
-	@include  align-items(center);
+	@include my-flex;
+	@include  my-align-items(center,center);
 
 	.name{
-		@include flex-grow(1);
+		@include my-flex-grow(1);
 	}
 
 	a{
@@ -87,9 +88,9 @@ html{
 			bottom: 0;
 		}
 
-		@include display-flex;
-		@include align-items(center);
-		@include justify-content(center);
+		@include my-flex;
+		@include my-align-items(center,center);
+		@include my-justify-content(center,center);
 	}
 }
 
@@ -97,7 +98,7 @@ $graphic-width: 50px;
 $graphic-height: $graphic-width * (55/80);
 
 .adjust{
-	@include flex-grow(1);
+	@include my-flex-grow(1);
 	height: $graphic-height;
 	min-width: 20px;
 }

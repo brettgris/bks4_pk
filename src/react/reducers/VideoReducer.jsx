@@ -4,8 +4,8 @@ export default function(state = null,action){
 	switch(action.type){
 		case FETCH_DATA:
 			return {
-				video: action.payload.sections[2].video,
-				background: action.payload.sections[2].background
+				video: action.payload.sections[0].video,
+				background: action.payload.sections[0].background
 			};
 		case SET_SECTION:
 			return {

@@ -12,8 +12,8 @@
 				z-index: $prod-thumbs-z;
 				left: $prod-thumb-left;
 
-				@include display-flex;
-				@include align-items(center);
+				@include my-flex;
+				@include my-align-items(center,center);
 
 				ul{
 					li{
@@ -42,16 +42,16 @@
 				z-index: $prod-menu-z;
 				overflow: hidden;
 
-				@include display-flex;
-				@include flex-direction(column);
+				@include my-flex;
+				@include my-flex-direction(column);
 
 				ul{
 					border-top:$prod-menu-item-border;
 					position: relative;
-					@include display-flex;
-					@include flex-direction(column);
+					@include my-flex;
+					@include my-flex-direction(column);
 
-					@include flex-grow(1);
+					@include my-flex-grow(1);
 
 					li{
 						list-style: none;
@@ -59,18 +59,18 @@
 						border-bottom:$prod-menu-item-border;
 						background: $prod-menu-item-background;
 
-						@include flex-grow(1);
+						@include my-flex-grow(1);
 
-						@include display-flex;
-						@include align-items(center);
-						@include justify-content(center);
+						@include my-flex;
+						@include my-align-items(center,center);
+						@include my-justify-content(center,center);
 
 						@include transition-property(all);
 						@include transition-duration(1s);
 
 						.menu-container{
-							@include display-flex;
-							@include align-items(center);
+							@include my-flex;
+							@include my-align-items(center,center);
 
 							.graphic{
 								@include opacity(.01);
@@ -113,7 +113,7 @@
 						&:hover{
 							background: $prod-menu-item-background-hover;
 
-							@include flex-grow(3);
+							@include my-flex-grow(3);
 
 							.menu-container{
 

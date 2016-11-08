@@ -11,9 +11,9 @@
 				z-index: $chars-thumbs-z;
 				top: $chars-thumb-top;
 
-				@include display-flex;
-				@include align-items(center);
-				@include justify-content(center);
+				@include my-flex;
+				@include my-align-items(center,center);
+				@include my-justify-content(center,center);
 
 				ul{
 					li{
@@ -48,16 +48,16 @@
 				z-index: $chars-menu-z;
 				overflow: hidden;
 
-				@include display-flex;
-				@include flex-direction(column);
+				@include my-flex;
+				@include my-flex-direction(column);
 
 				ul{
 					border-top:$chars-menu-item-border;
 					position: relative;
-					@include display-flex;
-					@include flex-direction(column);
+					@include my-flex;
+					@include my-flex-direction(column);
 
-					@include flex-grow(1);
+					@include my-flex-grow(1);
 
 					li{
 						list-style: none;
@@ -65,18 +65,18 @@
 						border-bottom:$chars-menu-item-border;
 						background: $chars-menu-item-background;
 
-						@include flex-grow(1);
+						@include my-flex-grow(1);
 
-						@include display-flex;
-						@include align-items(center);
-						@include justify-content(center);
+						@include my-flex;
+						@include my-align-items(center,center);
+						@include my-justify-content(center,center);
 
 						@include transition-property(all);
 						@include transition-duration(1s);
 
 						div{
-							@include display-flex;
-							@include align-items(center);
+							@include my-flex;
+							@include my-align-items(center,center);
 
 							.graphic{
 								@include opacity(.01);
@@ -99,7 +99,7 @@
 						}
 
 						&:hover{
-							@include flex-grow(3);
+							@include my-flex-grow(3);
 							background: $chars-menu-item-background-hover;
 
 							div{
@@ -128,12 +128,12 @@
 
 				.slide{
 					height: 100%;
-					@include display-flex;
-					@include align-items(flex-end);
+					@include my-flex;
+					@include my-align-items(flex-end,end);
 
 
 					&.full{
-						@include align-items(center);
+						@include my-align-items(center,center);
 						width: 97%;
 						margin: auto;
 					}
@@ -149,11 +149,11 @@
 
 						.name{
 							height: 100%;
-							@include display-flex;
-							@include align-items(flex-end);
+							@include my-flex;
+							@include my-align-items(flex-end,end);
 
 							div{
-								@include flex-grow(1);
+								@include my-flex-grow(1);
 
 								img{
 									margin: auto;
@@ -166,7 +166,7 @@
 
 				&.touch{
 					@include background-image(linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,.75) 95%));
-					
+
 					.slide{
 						.copy{
 							.name{

@@ -4,16 +4,16 @@
 	background: $footer-background;
 	overflow: hidden;
 
-	@include display-flex;
-	@include flex-direction(row);
-	@include justify-content(space-between);
+	@include my-flex;
+	@include my-flex-direction(row);
+	@include my-justify-content(space-between,justify);
 
 	.copyright{
-		@include flex-grow(1);
+		@include my-flex-grow(1);
 		height: 100%;
 
-		@include display-flex;
-		@include align-items(center);
+		@include my-flex;
+		@include my-align-items(center,center);
 
 		p{
 			margin: 0 10px;
@@ -22,8 +22,8 @@
 
 	.social{
 		height: 100%;
-		@include display-flex;
-		@include align-items(center);
+		@include my-flex;
+		@include my-align-items(center,center);
 		margin-right: 15px;
 
 		a{

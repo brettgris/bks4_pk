@@ -1,7 +1,7 @@
 .pressmaterials{
 	.main-column {
-		@include display-flex;
-		@include align-items( center );
+		@include my-flex;
+		@include my-align-items(center,center);
 
 		@media #{$small}{
 			display: block;
@@ -17,9 +17,9 @@
 		.main{
 			ul{
 				width: 100%;
-				@include display-flex;
-				@include align-items( center );
-				@include justify-content( center );
+				@include my-flex;
+				@include my-align-items( center,center );
+				@include my-justify-content( center,center );
 
 				@media #{$x-small} {
 					display: block !important;
@@ -30,9 +30,9 @@
 					width: (100% / $press-sections);
 					position: relative;
 					height: $press-section-height;
-					@include display-flex;
-					@include align-items( center );
-					@include justify-content( center );
+					@include my-flex;
+					@include my-align-items( center,center );
+					@include my-justify-content( center,center );
 
 					&::after{
 						content: " ";
