@@ -22,11 +22,9 @@ class VideoPlayer extends Component{
 		let w = $('.main-column').width();
 
 		if (w<770&&this.state.mobile!==true){
-			console.log("smaller");
 			var v = $('.main-column').data('vide');
 			if (v) v.destroy();
 
-			console.log(v);
 			this.setState({
 				mobile: true
 			});
@@ -38,16 +36,17 @@ class VideoPlayer extends Component{
 	}
 
 	componentDidMount(){
-		window.addEventListener("resize",this.handleResize);
-		this.handleResize();
+		//window.addEventListener("resize",this.handleResize);
+		//this.handleResize();
+		this.loadVideo();
 	}
 
 	componentWillUnmount(){
-		window.removeEventListener("resize",this.handleResize);
+		//window.removeEventListener("resize",this.handleResize);
 	}
 
 	componentDidUpdate(){
-		if( this.props.video['video']!=false&&this.props.video['video']!=this.path&&this.state.mobile===false ) this.loadVideo();
+		if( this.props.video['video']!=false&&this.props.video['video']!=this.path ) this.loadVideo();
 		else {
 			if (this.props.video['video']!==this.path){
 				this.path = null;
@@ -58,10 +57,9 @@ class VideoPlayer extends Component{
 	}
 
 	loadVideo(){
-		console.log("video")
 		var touchevents = Modernizr.touchevents;
 
-		if (this.props.video.video&&!touchevents&&!this.state.mobile) {
+		if (this.props.video.video&&!touchevents) {
 			if (this.video) this.video.pause();
 		 	this.path = this.props.video.video;
 

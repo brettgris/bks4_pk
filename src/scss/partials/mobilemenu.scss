@@ -2,13 +2,17 @@
 	background: $mobilemenu-background;
 	width: 320px;
 	height: 100%;
-	position: absolute;
-	top: 0;
+	position: fixed;
+	top: $header-height;
 	right: 0;
 	z-index: 6;
 
 	@media #{$mobile-min-break}{
 		display: none !important;
+	}
+
+	@media #{$x-small}{
+		width: 100%;
 	}
 
 	.list{

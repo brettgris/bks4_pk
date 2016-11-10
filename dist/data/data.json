@@ -316,11 +316,8 @@
 			 "class": "contact",
 			 "icon": "fa-envelope-o",
 			 "links": [{
-				  "name": "<span>Nyle Washington</span>Starz Entertainment, LLC.<br />(212) 905-4287<br />nyle.washington@starz.com",
-				  "link": "mailto:nyle.washington@starz.com?Subject=Black Sails Season 4 Press Kit"
-			 }, {
-				  "name": "<span>Collen Curtis</span>Starz Entertainment, LLC.<br />(212) 905-4230<br />colleen.curtis@starz.com",
-				  "link": "mailto:colleen.curtis@starz.com?Subject=Black Sails Season 4 Press Kit"
+				  "name": "<span>Kristin Silady</span>Starz Entertainment, LLC.<br />(424) 204-4127<br />kristin.silady@starz.com",
+				  "link": "mailto:kristin.silady@starz.com?Subject=Black Sails Season 4 Press Kit"
 			 }]
 		}]
 	}]
