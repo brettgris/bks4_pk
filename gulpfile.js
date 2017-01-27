@@ -87,7 +87,8 @@ gulp.task('sync', function() {
         server: {
             baseDir: "dist/",
             middleware: [historyApiFallback()]
-        }
+        },
+		  port: 5000
     });
 });
 
