@@ -1,10 +1,5 @@
 # SKELETON DEVELOPMENT WORKFLOW
 
-
-## Why use a workflow
-
-A development workflow is a way to help speed up development time and create more organized code by automating tasks and enabling preprocessors.
-
 ##### Including:
 * Loading up a local web server
 * Reloading the browser automatically whenever a file is saved
